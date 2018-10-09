@@ -17,5 +17,48 @@ Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu)
 
 ### Curriculum Vitae
 
-Coming soon
+# <center> Curriculum Vitae </center>
+&nbsp;
+                 _<center>   Erin Chille </center>_
+   <center> University of Rhode Island </center>
+   <center>Center for Biotechnology and Life Sciences 120 Flagg Rd </center>
+   <center> Kingston RI, 02881 </center>
+
+&nbsp;
+&nbsp;
+
+# **Education:**
+
+| Date | Degree | Affiliation |
+|------|--------|-------------|
+| 2015 - Present | B.S. Marine Biology | The University of Rhode Island |
+| 2015 - Present | Restoration Science and Management Minor | The University of Rhode Island |
+
+&nbsp;
+&nbsp;
+
+
+# **Relevent Coursework in Marine Biology:**
+* Marine Biology
+* General Oceanography
+* The Invisible Living Ocean
+* Invertebrate Zoology
+* Bermuda Marine Biodiversity
+* Marine Environmenal Physiology
+* General Animal Physiology
+* Marine Ecology
+* Structural Biochemistry
+* [CSI Oceans](https://web.uri.edu/gso/news/inner-space-center-to-broadcast-endeavor-live-an-oceanographic-research-expedition-off-rhode-island/)
+* Ocean Data Modelling (Ocean Data Integration I)
+* Communicating Environmental Research and Outreach
+* Public Engagement with Science
+
+&nbsp;
+&nbsp;
+
+# **Relevent Coursework in Conservation Biology:**
+* Coral Reef Conservation
+* Conservation Biology
+* Introduction to Marine and Coastal Law
+* Foundations in Restoration Ecology
 
