@@ -51,7 +51,7 @@ Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu)
 * General Animal Physiology
 * Marine Ecology
 * Structural Biochemistry
-* [CSI Oceans](https://youtu.be/MeYmJqoSRdg)
+* CSI Oceans [Link](https://web.uri.edu/gso/news/not-your-typical-undergraduate-class-endeavorlive/)
 * Ocean Data Modelling (Ocean Data Integration I)
 * Communicating Environmental Research and Outreach
 
@@ -65,13 +65,13 @@ Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu)
 
 ##### **Study Abroad**
 **CSI Oceans R/V Endeavor Cruise,** *Northwest Atlantic Coast (1 week)* &nbsp;
-*Apr 2018,* Investigated right whale-zooplankton-environment interactions offshore of Rhode Island. Prepared and conducted live telepresence interactions with the public (schools, organizations) from the ship that outlined shipboard activities, relevant science background material, and cruise discoveries (link)
+*Apr 2018,* Investigated right whale-zooplankton-environment interactions offshore of Rhode Island. Prepared and conducted live telepresence interactions with the public (schools, organizations) from the ship that outlined shipboard activities, relevant science background material, and cruise discoveries [(link)](https://youtu.be/MeYmJqoSRdg). &nbsp;
 
 **Bermuda Marine Biodiversity,** *Bermuda (1 week)* &nbsp;
-*Mar 2017,* Used GoPro video footage to investigate the effects of wave exposure on species composition and biodiversity in the benthic community.
+*Mar 2017,* Used GoPro video footage to investigate the effects of wave exposure on species composition and biodiversity in the benthic community. &nbsp;
 
 **Coral Reef Conservation,** *Bonaire, Dutch Antilles (2 weeks)* &nbsp;
-*Jan 2016,* Learned about coral reef ecology, major anthropogenic effects on coral reefs, and potential management solutions for reef restoration. Collected and analyzed underwater data on reef health using fish counts, reef rugosity measurements, and point-intercept benthic composition surveys, and used this information to investigate the effectiveness of Marine Protected Areas.
+*Jan 2016,* Learned about coral reef ecology, major anthropogenic effects on coral reefs, and potential management solutions for reef restoration. Collected and analyzed underwater data on reef health using fish counts, reef rugosity measurements, and point-intercept benthic composition surveys, and used this information to investigate the effectiveness of Marine Protected Areas. &nbsp;
 
 &nbsp;
 &nbsp;
