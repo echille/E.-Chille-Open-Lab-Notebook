@@ -31,10 +31,10 @@ Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu)
 &nbsp;
 &nbsp;
 
-## <center>Erin E. Chille</center>
-   <center> University of Rhode Island </center>
-   <center>Center for Biotechnology and Life Sciences 120 Flagg Rd </center>
-   <center> Kingston RI, 02881 </center>
+## <center>ERIN E. CHILLE</center>
+<center>Department of Biological Sciences</center>
+<center>University of Rhode Island</center>
+<center>120 Flagg Road, Kingston RI 02881</center>
 
 
 
@@ -71,24 +71,26 @@ Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu)
 
 #### International Education 
 
-**Bermuda Marine Biodiversity,** *Bermuda (1 week)* 
-*Mar 2017,* Used GoPro video footage to investigate the effects of wave exposure on species composition and biodiversity in the benthic community.
+**Bermuda Marine Biodiversity,** Bermuda Institute of Ocean Sciences. Mar 2017.
+- Used GoPro video footage to investigate the effects of wave exposure on species composition and biodiversity in the benthic community.
 
-**Coral Reef Conservation,** *Bonaire, Dutch Antilles (2 weeks)* &nbsp;
-&nbsp;
-*Jan 2016,* Learned about coral reef ecology, major anthropogenic effects on coral reefs, and potential management solutions for reef restoration. Collected and analyzed underwater data on reef health using fish counts, reef rugosity measurements, and point-intercept benthic composition surveys, and used this information to investigate the effectiveness of Marine Protected Areas.
+**Coral Reef Conservation,** Bonaire, Dutch Antilles. Jan 2016.
+* Learned about coral reef ecology, major anthropogenic effects on coral reefs, and potential management solutions for reef restoration.
+* Collected and analyzed underwater data on reef health using fish counts, reef rugosity measurements, and point-intercept benthic composition surveys, and used this information to investigate the effectiveness of Marine Protected Areas.
+* Reported to findings to the Bonaire marine park managers (STINAPA)
 
-&nbsp;
 &nbsp;
 
 ### **Relevant Experience:**
 
-**Research Assistant,** P.I. Dr. Hollie Putnam
-Jan 2018-Pres,
+**Research Assistant,** P.I. Dr. Hollie Putnam.  
+
+Jan 2018-Pres:
 * Investigating the effects of thermal stress on coral larvae fitness using chlorophyll analysis, cell counts and BCA protein assay protocols.  
 
-**Narrow River Preservation Association Board (NRPA),** Narragansett, R.I.  
-Jan 2018-Pres,
+**Narrow River Preservation Association Board (NRPA),** Narragansett, RI.  
+
+Jan 2018-Pres:
 * Coordinate river-wide coastal cleanup.
 * Lead educational activities during Art on the River and What Lives in the River events.
 * Act as liaison between URI environmental groups and NRPA board.
