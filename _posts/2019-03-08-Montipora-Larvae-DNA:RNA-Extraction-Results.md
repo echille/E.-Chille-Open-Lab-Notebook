@@ -27,7 +27,8 @@ tags: [DNA, RNA, larvae]
 - Added 15 additional microliters of Protienase K after 2 hours of digestion at 55°C
 - After digestion, pelleted out additional tissue in all samples
 
-**Qubit**
+**Qubit**  
+
 |Sample|DNA Standard 1 (RFU)|DNA Standard 2 (RFU)|DNA 1 (ng/µl)|DNA 2 (ng/µl)|Average DNA| RNA Standard 1 (RFU)| RNA Standard 2 (RFU)| RNA 1 (ng/µl)|RNA 2 (ng/ul)|Average RNA|
 |------|----------|----------|-------------|-------------|-------------|-------------|----|----|----|----|
 |218|222.7|22939|23.8|25.2|24.5|413.8|11515|97.8|102.0| 99.9|
@@ -37,9 +38,9 @@ tags: [DNA, RNA, larvae]
 
 **Tape Station**
 
-![TS-Batch-1-sample-info.png](~/desktop/TS-Batch-1-sample-info.png)
-![TS-Batch-1-sample-218-219.png](~/desktop/Screen1.png)
+![TS-Batch-1-sample-info.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-Batch-1-sample-info.png)
+![TS-Batch-1-sample-218-219.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Screen1.png)
 
-![TS-Batch-1-sample-220-230.png](~/desktop/Screen2.png)
+![TS-Batch-1-sample-220-230.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Screen2.png)
 
 
