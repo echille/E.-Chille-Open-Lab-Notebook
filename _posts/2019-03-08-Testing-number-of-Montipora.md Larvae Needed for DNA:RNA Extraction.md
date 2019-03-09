@@ -7,10 +7,14 @@ tags: [DNA, RNA, larvae]
 ## Larvae from Biomineralization Project
 ###### Posted orginally by [Maggie Schedl](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Montipora-Larvae-DNA-RNA-Test/)
 
-**Using Zymo Duet DNA/RNA Extraction Kit [HERE](https://files.zymoresearch.com/protocols/_d7003t_d7003_quick-dna-rna_miniprep_plus_kit.pdf)**
-**Other components: Thermoixer and centrifuge capable of 16,000 rcf spin (Eppendorf)**
+### Materials:
+- Using Zymo Duet DNA/RNA Extraction Kit [HERE](https://files.zymoresearch.com/protocols/_d7003t_d7003_quick-dna-rna_miniprep_plus_kit.pdf)**  
+- Thermoixer
+- Centrifuge capable of 16,000 rcf spin (Eppendorf)**
 
 _Make sure ethanol has been added to the wash buffer, and that enzymes have been re-hydrated before starting_
+
+### Sample Preparation
 
 1. Take sample tube with larvae 1 at a time out of the -80 to minimize amount of thawing
 2. Add 300µl DNA/RNA shield directly to the sample tube
