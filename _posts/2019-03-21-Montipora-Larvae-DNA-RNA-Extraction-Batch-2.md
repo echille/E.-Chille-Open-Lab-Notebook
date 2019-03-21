@@ -39,6 +39,11 @@ tags: [DNA, RNA, larvae]
 |363|192.3|19059|38.2|38.4|38.3|406.9|10912|244.0|242.0|243.0|
 |310|192.3|19059|67.0|65.2|66.1|406.9|10912|85.4|86.0|85.7|
 
+**Tape Station**  
+![TS-batch-2-3-sample-info.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-batch-2-3-sample-info.png)
+![TS-biomin-Ext-Batch-2-14-15.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-2-14-15.png)
+![TS-biomin-Ext-Batch-2-16-17.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-2-16-17.png)
+
 **Gel**  
 *Coming soon*
 
