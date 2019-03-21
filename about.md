@@ -6,7 +6,7 @@ title: About
 
 ### About me:
 
-I am an undergraduate Marine Biology major minoring in Restoration Science and Management at the University of Rhode Island. In addition to my studies, I also work as a research assistant in the Putnam Lab. In the lab, I work alongside Ph.D. candidate Kevin Wong in investigating the mechanisms causing intra- and trans-generational acclimatization of reef-building coral, Porites atreoides, in response to environmental change. I perform laboratory techniques such as chlorophyll analysis, Symbiodiniaceae cell counts, RNA and DNA extractions, and BCA total protein assays to help piece together the mechanisms behind these complex processes.  
+I am an undergraduate Marine Biology major minoring in Restoration Science and Management at the University of Rhode Island. In addition to my studies, I also work as a research assistant in the Putnam Lab. In the lab, I work alongside Ph.D. candidate [Kevin Wong](https://kevinhwong1.github.io/) in investigating the mechanisms causing intra- and trans-generational acclimatization of reef-building coral, Porites atreoides, in response to environmental change. I perform laboratory techniques such as chlorophyll analysis, Symbiodiniaceae cell counts, RNA and DNA extractions, and BCA total protein assays to help piece together the mechanisms behind these complex processes.  
 
 I will be graduating with a B.S. in Marine Biology in May 2019, and am planning on entering into a Masters or Ph. D. program in the Fall of 2020. My research interests are primarily focused on investigating the mechanisms that allow hermatypic corals to adapt and acclimatize to multiple simultaneous stressors, and the implications of these mechanisms towards conservation and ecology. 
 
