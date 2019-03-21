@@ -48,24 +48,26 @@ Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu)
 #### Relevant Coursework
 * Coral Reef Conservation
 * Conservation Biology
+* Introductory Ecology
 * Marine Biology
-* General Oceanography
 * The Invisible Living Ocean
 * Invertebrate Zoology
 * Bermuda Marine Biodiversity
 * Introduction to Marine and Coastal Law
 * Foundations in Restoration Ecology
 * Marine Environmenal Physiology
+* Communicating Environmental Research and Outreach
 * General Animal Physiology
 * Marine Ecology
-* Structural Biochemistry
-* Public Engagement with Science
 * CSI Oceans ([Link](https://web.uri.edu/gso/news/not-your-typical-undergraduate-class-endeavorlive/))
+* Public Engagement with Science
+* Structural Biochemistry
 * Ocean Data Modelling (Ocean Data Integration I)
-* Communicating Environmental Research and Outreach
+* General Oceanography
 * General Genetics
 * Evolutionary and Ecological Genomics
 * Using Genomic Techniques to Examine the Evolution of Populations
+
 
 
 
