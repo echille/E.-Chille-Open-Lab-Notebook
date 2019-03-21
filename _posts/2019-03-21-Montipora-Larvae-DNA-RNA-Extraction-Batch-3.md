@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Montipora Larvae DNA/RNA Extraction Batch 2
+title: Montipora Larvae DNA/RNA Extraction Batch 3
 tags: [DNA, RNA, larvae]
 ---
 
@@ -27,8 +27,8 @@ tags: [DNA, RNA, larvae]
 - Digested for 3 hours at 55°C
 - After digestion, pelleted out additional tissue in all samples. Centrifuged at 1600 rcf for 2 min.
 
-**Qubit** 
-
+**Qubit**   
+*Quantified on March 21, 2019 with Batch 2*
 |Sample|DNA Standard 1 (RFU)|DNA Standard 2 (RFU)|DNA 1 (ng/µl)|DNA 2 (ng/µl)|Average DNA| RNA Standard 1 (RFU)| RNA Standard 2 (RFU)| RNA 1 (ng/µl)|RNA 2 (ng/ul)|Average RNA|
 |------|----------|----------|-------------|-------------|-------------|-------------|----|----|----|----|
 |367|192.3|19059|25.2|25.0|25.1|406.9|10912|30.0|30.6|30.3|
