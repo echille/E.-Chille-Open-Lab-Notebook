@@ -15,12 +15,12 @@ tags: [DNA, RNA, larvae]
 #### Extraction Date: March 1, 2019
 **Samples**
 
-|Sample #|Date Collected|Quantity (µL)|Extracter|
-|-----|-------|------|------|
-|218|6/15/2018|300|Erin|
-|219|6/15/2018|300|Erin|
-|220|6/15/2018|300|Erin|
-|230|6/16/2018|300|Erin|
+|Extraction #|Sample #|Date Collected|Quantity (µL)|Extracter|
+|------------|-----|-------|------|------|
+|10|218|6/15/2018|300|Erin|
+|11|219|6/15/2018|300|Erin|
+|12|220|6/15/2018|300|Erin|
+|13|230|6/16/2018|300|Erin|
 
 **Extraction Notes**
 - Digested for 3 hours and 20 minutes at 55°C

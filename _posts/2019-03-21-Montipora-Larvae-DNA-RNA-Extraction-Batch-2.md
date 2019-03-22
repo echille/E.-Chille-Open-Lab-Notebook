@@ -15,12 +15,12 @@ tags: [DNA, RNA, larvae]
 #### Extraction Date: March 3, 2019
 **Samples**
 
-|Sample #|Date Collected|Quantity (µL)|Extracter|
-|-----|-------|------|------|
-|244|6/17/2018|300|Erin|
-|243|6/17/2018|300|Erin|
-|363|6/22/2018|300|Erin|
-|310|6/18/2018|300|Erin|
+|Extraction #|Sample #|Date Collected|Quantity (µL)|Extracter|
+|------------|-----|-------|------|------|
+|14|244|6/17/2018|300|Erin|
+|15|243|6/17/2018|300|Erin|
+|16|363|6/22/2018|300|Erin|
+|17|310|6/18/2018|300|Erin|
 
 **Extraction Notes**
 - Gathered all samples and set aside in cooler filled with dry ice. Then added DNA/RNA Shield to all.
