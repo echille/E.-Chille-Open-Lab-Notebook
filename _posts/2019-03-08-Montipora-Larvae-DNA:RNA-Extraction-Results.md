@@ -31,12 +31,12 @@ tags: [DNA, RNA, larvae]
 - Followed Broad Range dsDNA and RNA Qubit [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/)
 - All samples were read twice 
 
-|Sample|DNA Standard 1 (RFU)|DNA Standard 2 (RFU)|DNA 1 (ng/µl)|DNA 2 (ng/µl)|Average DNA| RNA Standard 1 (RFU)| RNA Standard 2 (RFU)| RNA 1 (ng/µl)|RNA 2 (ng/ul)|Average RNA|
-|------|----------|----------|-------------|-------------|-------------|-------------|----|----|----|----|
-|218|222.7|22939|23.8|25.2|24.5|413.8|11515|97.8|102.0| 99.9|
-|219|222.7|22939|29.0|30.0|29.5|413.8|11515|139.0|137.0|138.0|
-|220|222.7|22939|16.4|16.3|16.35|413.8|11515|77.8|77.6|77.7|
-|230|222.7|22939|24.4|23.8|24.1|413.8|11515|92.4|94.8|93.6|
+|Extraction #|Sample|DNA Standard 1 (RFU)|DNA Standard 2 (RFU)|DNA 1 (ng/µl)|DNA 2 (ng/µl)|Average DNA| RNA Standard 1 (RFU)| RNA Standard 2 (RFU)| RNA 1 (ng/µl)|RNA 2 (ng/ul)|Average RNA|
+|-------|------|----------|----------|-------------|-------------|-------------|-------------|----|----|----|----|
+|10|218|222.7|22939|23.8|25.2|24.5|413.8|11515|97.8|102.0| 99.9|
+|11|219|222.7|22939|29.0|30.0|29.5|413.8|11515|139.0|137.0|138.0|
+|12|220|222.7|22939|16.4|16.3|16.35|413.8|11515|77.8|77.6|77.7|
+|13|230|222.7|22939|24.4|23.8|24.1|413.8|11515|92.4|94.8|93.6|
 
 **Tape Station**
 - Followed RNA TapeStation [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/)
