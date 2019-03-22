@@ -28,6 +28,8 @@ tags: [DNA, RNA, larvae]
 - After digestion, pelleted out additional tissue in all samples
 
 **Qubit**  
+- Followed Broad Range dsDNA and RNA Qubit [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/)
+- All samples were read twice 
 
 |Sample|DNA Standard 1 (RFU)|DNA Standard 2 (RFU)|DNA 1 (ng/µl)|DNA 2 (ng/µl)|Average DNA| RNA Standard 1 (RFU)| RNA Standard 2 (RFU)| RNA 1 (ng/µl)|RNA 2 (ng/ul)|Average RNA|
 |------|----------|----------|-------------|-------------|-------------|-------------|----|----|----|----|
@@ -37,6 +39,7 @@ tags: [DNA, RNA, larvae]
 |230|222.7|22939|24.4|23.8|24.1|413.8|11515|92.4|94.8|93.6|
 
 **Tape Station**
+- Followed RNA TapeStation [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/)
 
 ![TS-Batch-1-sample-info.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-Batch-1-sample-info.png)
 ![TS-Batch-1-sample-218-219.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Screen1.png)
