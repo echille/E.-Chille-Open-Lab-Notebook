@@ -22,6 +22,7 @@ tags: [DNA, RNA, larvae]
 |16|363|6/22/2018|300|Erin|
 |17|310|6/18/2018|300|Erin|
 
+
 **Extraction Notes**
 - Gathered all samples and set aside in cooler filled with dry ice. Then added DNA/RNA Shield to all.
 - Digested for 3 hours and 15 minutes at 55°C
@@ -43,10 +44,14 @@ tags: [DNA, RNA, larvae]
 
 **Tape Station**  
 - Followed RNA TapeStation [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/)
-- Low RIN for sample 363 because not add enough sample to well H1
+- Low RIN for sample 363 because not add enough sample to well H1. Reran on April 1, 2019
 ![TS-batch-2-3-sample-info.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-batch-2-3-sample-info.png)
 ![TS-biomin-Ext-Batch-2-14-15.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-2-14-15.png)
 ![TS-biomin-Ext-Batch-2-16-17.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-2-16-17.png)
+
+Rerun of sample 363:
+
+![TS-biomin-Ext-Batch-2-16.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-2-16.png))
 
 **Gel**  
 - Followed PPP Lab Agarose Gel [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/)  
