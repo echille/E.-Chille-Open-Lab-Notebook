@@ -42,33 +42,32 @@ Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu)
 
 | Date | Degree | Affiliation |
 |------|--------|-------------|
-| 2015 - Present | B.S. Marine Biology with Minor in Restoration Science and Mangement | The University of Rhode Island |  
+| May 2019 | B.S. Marine Biology with Minor in Restoration Science and Mangement | The University of Rhode Island |  
 
 
 #### Relevant Coursework
-* Coral Reef Conservation
-* Conservation Biology
-* Introductory Ecology
-* Marine Biology
-* The Invisible Living Ocean
-* Invertebrate Zoology
-* Bermuda Marine Biodiversity
-* Introduction to Marine and Coastal Law
-* Foundations in Restoration Ecology
-* Marine Environmenal Physiology
-* Communicating Environmental Research and Outreach
-* General Animal Physiology
-* Marine Ecology
-* CSI Oceans ([Link](https://web.uri.edu/gso/news/not-your-typical-undergraduate-class-endeavorlive/))
-* Public Engagement with Science
-* Structural Biochemistry
-* Ocean Data Modelling (Ocean Data Integration I)
-* General Oceanography
-* General Genetics
-* Evolutionary and Ecological Genomics
-* Using Genomic Techniques to Examine the Evolution of Populations
 
 
+Topic| Courses
+---|---
+|Ecology and Evolution | Introductory Ecology
+||The Invisible Living Ocean
+||Marine Ecology
+|| Evolutionary and Ecological Genomics
+||Using Genomic Techniques to Examine the Evolution of Populations
+||Ocean Data Modelling (Ocean Data Integration I)
+Conservation |Introduction to Marine and Coastal Law
+||Foundations in Restoration Ecology
+||Conservation Biology
+|Cell and Development|Biochemistry
+||Structural Biochemistry
+||General Genetics
+|Organismal Biology and Physiology|Invertebrate Zoology
+|| Marine Environmenal Physiology
+||General Animal Physiology
+|Science Communication|Communicating Environmental Research and Outreach
+||Public Engagement with Science
+||Honors Research Writing
 
 
 #### International Education 
@@ -106,7 +105,7 @@ Jun 2018–Pres:
 Sept 2016–Dec 2017:
 * Organized data collected during the URI Bonaire J-term Program from 2014-2017 in order to compile a status report for the STINAPA Bonaire National Parks Foundation.  
 
-**R/V Endeavor Cruise,** Northwest Atlantic Coast.  
+**[R/V Endeavor Cruise](https://web.uri.edu/gso/news/not-your-typical-undergraduate-class-endeavorlive/),** Northwest Atlantic Coast.  
 
 Apr 2018:
 * Investigated right whale-zooplankton-environment interactions offshore of Rhode Island.
@@ -156,8 +155,12 @@ Jun 2012-Oct 2012:
 
 | Year | Achievement |
 |------|-------------|
+|2019| SDI Underwater Photography Diver|
 |2018| SDI Rescue Diver|
-| 2018| Diver's Alert Network First Aid/ CPR/Emergency Oxygen|
-|2016|AAUS Scientific Diver|
+|2018| Diver's Alert Network First Aid/ CPR/Emergency Oxygen|
+|2016| AAUS Scientific Diver|
+|2016| SDI Nitrox Diver|
 |2015|Girl Scout Gold Awardee| 
 
+
+*C.V. updated 3 April 2019*
