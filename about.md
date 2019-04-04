@@ -50,24 +50,24 @@ Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu)
 
 Topic| Courses
 ---|---
-|Ecology and Evolution | Introductory Ecology
-||The Invisible Living Ocean
-||Marine Ecology
-|| Evolutionary and Ecological Genomics
-||Using Genomic Techniques to Examine the Evolution of Populations
-||Ocean Data Modelling (Ocean Data Integration I)
-Conservation |Introduction to Marine and Coastal Law
-||Foundations in Restoration Ecology
-||Conservation Biology
-|Cell and Development|Biochemistry
-||Structural Biochemistry
-||General Genetics
-|Organismal Biology and Physiology|Invertebrate Zoology
-|| Marine Environmenal Physiology
-||General Animal Physiology
-|Science Communication|Communicating Environmental Research and Outreach
-||Public Engagement with Science
-||Honors Research Writing
+|Ecology and Evolution | Introductory Ecology|
+||The Invisible Living Ocean|
+||Marine Ecology|
+|| Evolutionary and Ecological Genomics|
+||Using Genomic Techniques to Examine the Evolution of Populations|
+||Ocean Data Modelling (Ocean Data Integration I)|
+|Conservation |Introduction to Marine and Coastal Law|
+||Foundations in Restoration Ecology|
+||Conservation Biology|
+|Cell and Development|Biochemistry|
+||Structural Biochemistry|
+||General Genetics|
+|Organismal Biology and Physiology|Invertebrate Zoology|
+|| Marine Environmenal Physiology|
+||General Animal Physiology|
+|Science Communication|Communicating Environmental Research and Outreach|
+||Public Engagement with Science|
+||Honors Research Writing|
 
 
 #### International Education 
