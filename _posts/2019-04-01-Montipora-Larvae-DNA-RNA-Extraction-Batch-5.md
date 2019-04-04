@@ -12,7 +12,7 @@ tags: [DNA, RNA, larvae]
 ---
 
 
-#### Extraction Date: March 3, 2019
+#### Extraction Date: March 29, 2019
 **Samples**
 
 |Extraction #|Sample #|Date Collected|Quantity (µL)|Extracter|
