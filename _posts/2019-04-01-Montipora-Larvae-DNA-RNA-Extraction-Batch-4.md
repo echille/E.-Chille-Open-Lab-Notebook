@@ -52,3 +52,8 @@ tags: [DNA, RNA, larvae]
 
 
 
+**Gel**  
+- Followed PPP Lab Agarose Gel [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/)  
+- Used the Thermo Scientific GeneRuler 1 kb Plus DNA Ladder [(link)](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0013047_GeneRuler_1kb_Plus_DNALadder_250ug_UG.pdf)  
+
+![annotated-biomin-gel-batches-4-5.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/annotated-biomin-gel-batches-4-5.png)
