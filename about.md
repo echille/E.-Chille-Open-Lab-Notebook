@@ -48,9 +48,9 @@ Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu)
 #### Relevant Coursework
 
 
-Topic| Courses
----|---
-|Ecology and Evolution | Introductory Ecology|
+|Topic| Courses|
+|---|---|
+|Ecology and Evolution |Introductory Ecology|
 ||The Invisible Living Ocean|
 ||Marine Ecology|
 || Evolutionary and Ecological Genomics|
