@@ -6,9 +6,9 @@ title: About
 
 ### About me:
 
-I am an undergraduate Marine Biology major minoring in Restoration Science and Management at the University of Rhode Island. In addition to my studies, I also work as a research assistant in the Putnam Lab. In the lab, I work alongside Ph.D. candidate [Kevin Wong](https://kevinhwong1.github.io/) in investigating the mechanisms causing intra- and trans-generational acclimatization of reef-building coral, Porites atreoides, in response to environmental change. I perform laboratory techniques such as chlorophyll analysis, Symbiodiniaceae cell counts, RNA and DNA extractions, and BCA total protein assays to help piece together the mechanisms behind these complex processes.  
+I am an undergraduate Marine Biology major minoring in Restoration Science and Management at the University of Rhode Island. In addition to my studies, I also work as a research assistant in the Putnam Lab. In the lab, I work alongside Ph.D. candidate [Kevin Wong](https://kevinhwong1.github.io/) in investigating the mechanisms causing intra- and trans-generational acclimatization of reef-building coral, *Porites atreoides*, in response to environmental change. I perform laboratory techniques such as chlorophyll analysis, Symbiodiniaceae cell counts, RNA and DNA extractions, and BCA total protein assays to help piece together the mechanisms behind these complex processes.  
 
-I will be graduating with a B.S. in Marine Biology in May 2019, and am planning on entering into a Masters or Ph. D. program in the Fall of 2020. My research interests are primarily focused on investigating the mechanisms that allow hermatypic corals to adapt and acclimatize to multiple simultaneous stressors, and the implications of these mechanisms towards conservation and ecology. 
+I will be graduating with a B.S. in Marine Biology in May 2019, and am planning on entering into a graduate program in the Fall of 2020. My research interests are primarily focused on investigating the mechanisms that allow hermatypic corals to adapt and acclimatize to multiple simultaneous stressors, and the implications of these mechanisms towards conservation and ecology. 
 
 
 
@@ -73,12 +73,12 @@ Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu)
 #### International Education 
 
 **Bermuda Marine Biodiversity,** Bermuda Institute of Ocean Sciences. Mar 2017.
-- Used GoPro video footage to investigate the effects of wave exposure on species composition and biodiversity in the benthic community.
+- Used GoPro video footage to investigate the effects of wave exposure on species composition and biodiversity in the benthic community. Reported findings in formal research paper.
 
 **Coral Reef Conservation,** Bonaire, Dutch Antilles. Jan 2016.
 * Learned about coral reef ecology, major anthropogenic effects on coral reefs, and potential management solutions for reef restoration.
 * Collected and analyzed underwater data on reef health using fish counts, reef rugosity measurements, and point-intercept benthic composition surveys, and used this information to investigate the effectiveness of Marine Protected Areas.
-* Reported to findings to the Bonaire marine park managers (STINAPA)
+* Reported findings to the Bonaire marine park managers as well as in a formal research paper.
 
 &nbsp;
 
@@ -87,7 +87,8 @@ Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu)
 **Research Assistant,** P.I. Dr. Hollie Putnam.  
 
 Jan 2018-Pres:
-* Investigating the effects of thermal stress on coral larvae fitness using chlorophyll analysis, cell counts and BCA protein assay protocols.  
+* Investigating the effects of thermal stress on coral larvae fitness using chlorophyll analysis, cell counts and BCA protein assay protocols. 
+* Conducting RNA and DNA extractions on *Montipora capitata* larvae.
 
 **Narrow River Preservation Association Board (NRPA),** Narragansett, RI.  
 
@@ -100,7 +101,7 @@ Jan 2018-Pres:
 **Research Assistant,** P.I. Dr. Graham Forrester.  
 
 Jun 2018–Pres:
-* Investigating the effects of parasitism and refuge shortage on density-dependent interactions in bridled gobies. Research conducted on Guana Island, British Virgin Islands.  
+* Investigating the effects of parasitism and refuge shortage on density-dependent interactions in bridled gobies. Research conducted on Guana Island, British Virgin Islands. Writing up results in a manuscript to submit to *Scientific Reports*.
 
 Sept 2016–Dec 2017:
 * Organized data collected during the URI Bonaire J-term Program from 2014-2017 in order to compile a status report for the STINAPA Bonaire National Parks Foundation.  
@@ -109,7 +110,7 @@ Sept 2016–Dec 2017:
 
 Apr 2018:
 * Investigated right whale-zooplankton-environment interactions offshore of Rhode Island.
-* Prepared and conducted live telepresence interactions with the public (schools, organizations) from the ship that outlined shipboard activities, relevant science background material, and cruise discoveries (link).  
+* Prepared and conducted live telepresence interactions with the public (schools, organizations) from the ship that outlined shipboard activities, relevant science background material, and cruise discoveries.  
 
 **Coastal Research Fellow and Lab Technician,** URI Watershed Watch.  
 
@@ -138,15 +139,16 @@ Sept 2016-Mar 2017:
 **Volunteer,** Biomes Marine Biology Center, Narragansett, RI.
 
 Oct 2012-Aug 2013:
-* Interpreted exhibits and relayed accurate information to visitors. Prepared food for animals.
+* Interpreted exhibits and relayed accurate information to visitors. 
 * Maintained exhibits and facility.
 * Tested water quality.
-* Conducted feedings/demonstrations and handled invertebrates
+* Prepared food for animals. Conducted feedings/demonstrations and handled invertebrates.
 
 **Docent,** Mystic Aquarium, Mystic, CT.
 
 Jun 2012-Oct 2012:
-* Interpreted exhibits and relayed accurate information to visitors. Conducted feedings/demonstrations, and handled inv
+* Interpreted exhibits and relayed accurate information to visitors.
+* Conducted feedings/demonstrations, and handled invertebrates.
 
 &nbsp;
 &nbsp;
