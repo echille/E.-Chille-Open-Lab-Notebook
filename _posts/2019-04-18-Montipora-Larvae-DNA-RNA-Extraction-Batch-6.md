@@ -17,9 +17,9 @@ tags: [DNA, RNA, larvae]
 
 |Extraction #|Sample #|Date Collected|Quantity (µL)|Extracter|
 |------------|-----|-------|------|------|
-|31|360|6/22/2018|300|Erin|
-|32|364|6/22/2018|NA|Erin|
-|33|372|6/22/2018|NA|Erin|
+|31|360|6/22/2018||Erin|
+|32|364|6/22/2018||Erin|
+|33|372|6/22/2018||Erin|
 
 
 **Extraction Notes**

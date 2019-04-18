@@ -19,8 +19,8 @@ tags: [DNA, RNA, larvae]
 |------------|-----|-------|------|------|
 |22|312|6/18/2018|300|Erin|
 |23|231|6/16/2018|300|Erin|
-|24|379|6/22/2018|NA|Erin|
-|25|371|6/22/2018|NA|Erin|
+|24|379|6/22/2018||Erin|
+|25|371|6/22/2018||Erin|
 
 **Extraction Notes**
 - Gathered all samples and set aside in cooler filled with dry ice. Then added DNA/RNA Shield to all.
