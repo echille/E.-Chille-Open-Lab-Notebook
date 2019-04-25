@@ -93,5 +93,12 @@ If DNA quantity is sufficient (typically >10 ng/µL) follow the PPP Agarose Gel 
 ![annotated-biomin-gel-batches-4-5.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/annotated-biomin-gel-batches-4-5.png)
 
 #### RNA Quality  
-If RNA quantity is sufficient follow the Tape Station [Protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/) to determine RNA quality and obtain a RNA Integrity Number (RIN). "Good" RNA should have a RIN above 8.0 and form two distinct peaks at the 18S and 28S locations. See example below: 
+If RNA quantity is sufficient follow the Tape Station [Protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/) to determine RNA quality and obtain a RNA Integrity Number (RIN). "Good" RNA should have a RIN above 8.0 and form two distinct peaks at the 18S and 28S locations. See example below:
+
 ![TS-biomin-Ext-Batch-5-26.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-5-26.png)
+
+
+---
+
+
+###### From Biomineralization Project
