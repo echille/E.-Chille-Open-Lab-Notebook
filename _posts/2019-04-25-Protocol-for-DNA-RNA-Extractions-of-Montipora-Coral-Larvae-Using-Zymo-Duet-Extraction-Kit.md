@@ -89,7 +89,8 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 Follow Broad Range dsDNA and RNA Qubit [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/) to analyze sample ++quantity++. Read all samples twice.
 
 #### DNA Quality  
-If DNA quantity is sufficient (typically >10 ng/µL) follow the PPP Agarose Gel [Protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/) to determine DNA quality. "Good" DNA should form a distinct band a the very top of the gel. See example below:  
+If DNA quantity is sufficient (typically >10 ng/µL) follow the PPP Agarose Gel [Protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/) to determine DNA quality. "Good" DNA should form a distinct band a the very top of the gel. See example below:
+
 ![annotated-biomin-gel-batches-4-5.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/annotated-biomin-gel-batches-4-5.png)
 
 #### RNA Quality  

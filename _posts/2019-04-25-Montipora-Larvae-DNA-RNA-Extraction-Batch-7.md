@@ -1,0 +1,41 @@
+---
+layout: post
+title: Montipora Larvae DNA/RNA Extraction Batch 7
+tags: [DNA, RNA, larvae]
+---
+
+## Larvae from Biomineralization Project
+
+--- 
+***For detailed extraction protocol view post: [Testing Number of Montipora Larvae Needed for DNA/RNA Extraction](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Montipora-Larvae-DNA-RNA-Test/)***
+
+---
+
+
+#### Extraction Date: April 25, 2019
+**Samples**
+
+|Extraction #|Sample #|Date Collected|Quantity (µL)|Extracter|
+|------------|-----|-------|------|------|
+|34|361|6/22/2018||Erin|
+|35|365|6/22/2018||Erin|
+|36|373|6/22/2018||Erin|
+
+
+**Extraction Notes**
+- Gathered all samples and set aside on ice. Then added DNA/RNA Shield to all.
+- Digested for 3 hours and 5 minutes at 55°C
+- After digestion, pelleted out additional tissue in all samples. Centrifuged at 2200 rcf for 1 min.
+
+**Qubit**  
+*Quantified on April 25, 2019*  
+- Followed Broad Range dsDNA and RNA Qubit [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/)
+- All samples were read twice 
+
+|Extraction #|Sample|DNA Standard 1 (RFU)|DNA Standard 2 (RFU)|DNA 1 (ng/µl)|DNA 2 (ng/µl)|Average DNA| RNA Standard 1 (RFU)| RNA Standard 2 (RFU)| RNA 1 (ng/µl)|RNA 2 (ng/ul)|Average RNA|
+|--------|------|----------|----------|-------------|-------------|-------------|-------------|----|----|----|----|
+|34|361|126.5|11128|25.6|25.4|25.5|374.4|11026|69.4|68.0|68.7|
+|35|365|126.5|11128|28.0|27.6|27.8|374.4|11026|99.6|100.0|99.8|
+|36|373|126.5|11128|22.4|22.4|22.4|374.4|11026|35.4|35.6|35.5|
+
+
