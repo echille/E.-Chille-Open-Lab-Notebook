@@ -7,7 +7,7 @@ tags: [DNA, RNA, larvae]
 ## Larvae from Biomineralization Project
 
 --- 
-***For detailed extraction protocol view post: [Testing Number of Montipora Larvae Needed for DNA/RNA Extraction](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Montipora-Larvae-DNA-RNA-Test/)***
+***For detailed extraction protocol view post: [Protocol for DNA/RNA Extractions of Montipora Coral Larvae Using Zymo-Duet Extraction Kit](https://echille.github.io/E.-Chille-Open-Lab-Notebook/Protocol-for-DNA-RNA-Extractions-of-Montipora-Coral-Larvae-Using-Zymo-Duet-Extraction-Kit/)***
 
 ---
 

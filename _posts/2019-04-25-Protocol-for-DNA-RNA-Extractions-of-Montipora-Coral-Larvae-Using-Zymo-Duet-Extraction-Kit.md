@@ -56,6 +56,7 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 5. Discard flow through (Zymo kit waste)
 6. Add 700µl to the green RNA spin columns (the rest from the 1.5mL RNA tubes)
 7. Centrifuge at 16,000 rcf (g) for 30 seconds
+    - Get DNase I from freezer
 8. Discard flow through (Zymo kit waste)
 9. Add 400µl DNA/RNA Wash Buffer gently to each green RNA column
 10. Centrifuge at 16,000 rcf (g) for 30 seconds
