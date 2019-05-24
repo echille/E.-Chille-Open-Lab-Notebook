@@ -28,7 +28,7 @@ tags: [DNA, RNA, larvae]
 - After digestion, pelleted out additional tissue in all samples. Centrifuged at 2200 rcf for 1 min.
 
 **Qubit**  
-*Quantified on April 25, 2019*  
+*Qubited on April 25, 2019*  
 - Followed Broad Range dsDNA and RNA Qubit [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/)
 - All samples were read twice 
 
@@ -38,4 +38,11 @@ tags: [DNA, RNA, larvae]
 |35|365|126.5|11128|28.0|27.6|27.8|374.4|11026|99.6|100.0|99.8|
 |36|373|126.5|11128|22.4|22.4|22.4|374.4|11026|35.4|35.6|35.5|
 
+**Tape Station**  
+*Tape stationed May 22, 2019*
+- Followed RNA TapeStation [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/)
+
+![TS-biomin-Ext-Batch-7-35.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-7-34.png)
+![TS-biomin-Ext-Batch-7-35.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-7-35.png)
+![TS-biomin-Ext-Batch-7-36.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-7-36.png)
 
