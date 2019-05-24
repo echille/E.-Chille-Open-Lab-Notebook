@@ -12,7 +12,7 @@ tags: [DNA, RNA, larvae]
 ---
 
 
-#### Extraction Date: May 22, 2019
+#### Extraction Date: May 17, 2019
 **Samples**
 
 |Extraction #|Sample #|Date Collected|Quantity (µL)|Extracter|
@@ -31,7 +31,8 @@ tags: [DNA, RNA, larvae]
 - Some lipids left in samples
 - Pelleted at 21130 rcf for 1 min
 
-**Qubit**   
+**Qubit**  
+*Quantified May 22, 2019*
 - Followed Broad Range dsDNA and RNA Qubit [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/)
 - All samples were read twice 
 

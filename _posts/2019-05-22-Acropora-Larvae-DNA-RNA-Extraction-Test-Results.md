@@ -6,7 +6,7 @@
 ---
 
 
-#### Extraction Date: May 22, 2019
+#### Extraction Date: May 17, 2019
 **Samples**
 
 |ID|Spawning Date|Content|Sample Quantity (µL)|Sample Conserv.|Tech|
@@ -21,7 +21,8 @@
 - Some lipids left in samples
 - Pelleted at 2300 rcf for 1 min
 
-**Qubit**   
+**Qubit**  
+*Quantified May 22, 2019*
 - Followed Broad Range dsDNA and RNA Qubit [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/)
 - All samples were read twice 
 
