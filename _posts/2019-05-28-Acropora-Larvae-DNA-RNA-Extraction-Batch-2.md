@@ -14,18 +14,18 @@ tags: [DNA, RNA, eggs, sperm]
 #### Extraction Date: May 28, 2019
 **Samples**
 
-Extraction Number|Sample ID|Spawning Date|Content|Sample Quantity (µL)|Sample Conserv.|Tech|
-|---|---|---|---|---|---|---|---|
-|11|784|4/11/2018|Eggs|100|300 uL Shield|Erin|
-|12|215|2/11/2018|Eggs|100|300 uL Shield|Erin|
-|13|760|4/11/2018|Eggs|100|300 uL Shield|Erin|
-|14|790|4/11/2018|Sperm|100|300 uL Shield|Erin|
-|15|19|1/11/2018|Eggs|100|300 uL Shield|Erin|
-|16|185|2/11/2018|Sperm|100|300 uL Shield|Erin|
-|17|173|2/11/2018|Sperm|100|300 uL Shield|Erin|
-|18|754|4/11/2018|Sperm|100|300 uL Shield|Erin|
-|19|167|2/11/2018|Eggs|100|300 uL Shield|Erin|
-|20|221|2/11/2018|Sperm|100|300 uL Shield|Erin|
+|Extraction Number|Sample ID|Spawning Date|Content|Sample Quantity (µL)|Sample Conserv.|Tech|
+|---|---|---|---|---|---|---|
+|11|784|4/11/2018|Eggs|100|300 uL Shield|Erin and Emma|
+|12|215|2/11/2018|Eggs|100|300 uL Shield|Erin and Emma|
+|13|760|4/11/2018|Eggs|100|300 uL Shield|Erin and Emma|
+|14|790|4/11/2018|Sperm|100|300 uL Shield|Erin and Emma|
+|15|19|1/11/2018|Eggs|100|300 uL Shield|Erin and Emma|
+|16|185|2/11/2018|Sperm|100|300 uL Shield|Erin and Emma|
+|17|173|2/11/2018|Sperm|100|300 uL Shield|Erin and Emma|
+|18|754|4/11/2018|Sperm|100|300 uL Shield|Erin and Emma|
+|19|167|2/11/2018|Eggs|100|300 uL Shield|Erin and Emma|
+|20|221|2/11/2018|Sperm|100|300 uL Shield|Erin and Emma|
 
 
 **Extraction Notes**
@@ -33,7 +33,7 @@ Extraction Number|Sample ID|Spawning Date|Content|Sample Quantity (µL)|Sample C
 - Digested for 4 hours 55°C 1100 rpm except for samples 784, 19, 754, 167 and 760. These test tubes were too large for the thermomixer and so digested at 55°C speed 35 in Incubator-Genie
 - Added additional 15µL Proteinase K after 2 hours
 - After 4 hours the samples had barely digested. To lyse the cells we micropestled each egg sample with sterilized micropestles and microcentrifuge tubes
-- To accomodate the use of extra shield, we added 750µL Lysis buffer instead of 345µL (Step 3 DNA Extraction). Additionally we mixed 1000µL EtOH instead of 700µL in 5µL tubes (Step 1 RNA Extraction) and repeated steps 6-7 once.
+- To accomodate the use of extra shield, we added 750µL Lysis buffer instead of 345µL (Step 3 DNA Extraction). Additionally, we mixed 1000µL EtOH instead of 700µL in 5µL tubes (Step 1 RNA Extraction) and repeated steps 6-7 once.
 
 **Qubit**  
 - Followed Broad Range dsDNA and RNA Qubit [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/)

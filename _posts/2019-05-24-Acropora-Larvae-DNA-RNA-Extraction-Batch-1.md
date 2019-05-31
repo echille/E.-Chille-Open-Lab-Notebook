@@ -15,8 +15,8 @@ tags: [DNA, RNA, eggs, sperm]
 #### Extraction Date: May 24, 2019
 **Samples**
 
-Extraction Number|Sample ID|Spawning Date|Content|Sample Quantity (µL)|Sample Conserv.|Tech|
-|---|---|---|---|---|---|---|---|
+|Extraction Number|Sample ID|Spawning Date|Content|Sample Quantity (µL)|Sample Conserv.|Tech|
+|---|---|---|---|---|---|---|
 |1|796|4/11/2018|Eggs|100|300 uL Shield|Erin|
 |2|161|2/11/2018|Sperm|100|300 uL Shield|Erin|
 |3|227|2/11/2018|Eggs|100|300 uL Shield|Erin|
