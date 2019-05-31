@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Acropora Larvae DNA/RNA Extraction Batch 1
-tags: [DNA, RNA, larvae]
+tags: [DNA, RNA, eggs, sperm]
 ---
 
 ## Larvae from FACE PUF Morea Project
