@@ -1,3 +1,9 @@
+---
+layout: post
+title: Acropora Larvae DNA/RNA Extraction Batch 1
+tags: [DNA, RNA, larvae]
+---
+
 ## Larvae from FACE PUF Morea Project
 
 --- 
@@ -49,6 +55,7 @@ Extraction Number|Sample ID|Spawning Date|Content|Sample Quantity (µL)|Sample C
 
 
 **Tape Station**  
+*Quantified on May 28, 2019*  
 - Followed RNA TapeStation [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/)
 
 ![TS-Morea-FACE-PUF-Batch-1-Ext-1.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-Morea-FACE-PUF-Batch-1-Ext-1.png) 
