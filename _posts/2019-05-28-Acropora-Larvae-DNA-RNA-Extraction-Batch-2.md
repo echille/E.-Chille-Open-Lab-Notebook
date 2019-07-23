@@ -66,3 +66,9 @@ tags: [DNA, RNA, eggs, sperm]
 ![TS-Morea-FACE-PUF-Batch-2-Ext-17.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-Morea-FACE-PUF-Batch-2-Ext-17.png) 
 ![TS-Morea-FACE-PUF-Batch-2-Ext-18.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-Morea-FACE-PUF-Batch-2-Ext-18.png) 
 ![TS-Morea-FACE-PUF-Batch-2-Ext-19.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-Morea-FACE-PUF-Batch-2-Ext-19.png) 
+
+**Gel**  
+- Followed PPP Lab Agarose Gel [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/) for a small 1% agarose gel  
+- Used the Thermo Scientific GeneRuler 1 kb Plus DNA Ladder [(link)](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0013047_GeneRuler_1kb_Plus_DNALadder_250ug_UG.pdf)  
+
+![annotated-Morea-FACE-PUF-gel-batch-1.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/annotated-Morea-FACE-PUF-gel-batch-2.png)
