@@ -25,7 +25,7 @@ Next, navigate to terminal, move to the directory where you want to place your r
 Open up your favorite Markdown editor. I personally like *[Markdown Plus](https://tylingsoft.com/markdown-plus/)* because you can get a preview of how your code looks as you are writing it. This app does cost money, however, a good free alternative is *[Atom](https://atom.io/packages/markdown-writer)*.
 
 1. Make a new post  
-In the toolbar, click "New" to create a new document. This will open a window where you can save your new post. Save the in the "_posts" directory of your repository with the naming convention "yyyy-mm-dd_title_no_spaces". 
+In the toolbar, click "New" to create a new document. This will open a window where you can save your new post. Save the in the "_posts" directory of your repository with the naming convention "yyyy-mm-dd-title-with-hyphens-replacing-spaces". 
 
 2. Format the post  
 Now that you've created a new post, you have to tell your Markdown editor what kind of post it is. You do this by creating a header. For example:
@@ -42,8 +42,7 @@ Once that is done you are good to go! Remember to save often.
 
 ## Push your changes to GitHub!
 
-![push_post.mov](https://github.com/echille/E.-Chille-Open-Lab-Notebook/raw/master/images/push_post.mov)
-
+![push_post.mov](https://github.com/echille/E.-Chille-Open-Lab-Notebook/raw/master/images/push_post.mov)  
 
 1. Check the status of your repository  
 Navigate back to terminal and check the status of your repository using the command ```git status```. You may have to pull to update the local version of your repository before you upload your changes using the ```git pull``` command.
