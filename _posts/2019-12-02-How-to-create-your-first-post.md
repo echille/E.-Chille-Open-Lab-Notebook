@@ -51,7 +51,9 @@ Navigate back to terminal and check the status of your repository using the comm
 When you see that it's ok to push, add your changes. You can do this in a few ways:
 
 > **add -A** will add all of the changes that you've made since you last pushed  
-> **add <path_to_file>** will add just the file that you specify  
+>
+> **add <path_to_file>** will add just the file that you specify
+>
 > **add path_to_file/some_day*** will add all of the posts with that day in the title
 
 3. Commit your changes with a message  
