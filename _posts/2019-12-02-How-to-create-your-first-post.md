@@ -25,7 +25,7 @@ Next, navigate to terminal, move to the directory where you want to place your r
 Open up your favorite Markdown editor. I personally use *[Markdown Plus](https://tylingsoft.com/markdown-plus/)* because you can get a preview of how your code looks as you are writing it. This app does cost money, however, a good free alternative is *[Atom](https://atom.io/packages/markdown-writer)*.
 
 #### 1. Make a new post  
-In the toolbar, click "New" to create a new document. This will open a window where you can save your new post. Save the in the "_posts" directory of your repository with the naming convention "yyyy-mm-dd-title-with-hyphens-replacing-spaces". 
+In the toolbar, click "New" to create a new document. This will open a window where you can save your new post. Save the document in the "_posts" directory within your repository with the naming convention "yyyy-mm-dd-title-with-hyphens-replacing-spaces". 
 
 #### 2. Format the post  
 Now that you've created a new post, you have to tell your Markdown editor what kind of post it is. You do this by creating a header. For example:
@@ -38,7 +38,8 @@ tags: [DNA, RNA, eggs, sperm]
 ---
 ```
 
-[![How to create your first GitHub post: Part 3](https://i.ibb.co/0h0VNkD/https-i-ytimg-com-vi-75-O0-XCYi-Pq-A-hqdefault.jpg)](https://youtu.be/75O0XCYiPqA "How to create your first GitHub post: Part 3")
+[![How to create your first GitHub post: Part 3](https://i.ibb.co/0h0VNkD/https-i-ytimg-com-vi-75-O0-XCYi-Pq-A-hqdefault.jpg)](https://youtu.be/75O0XCYiPqA "How to create your first GitHub post: Part 3")  
+*Note: The video shows the file name replace spaces in the title with underscores. This is incorrect. For correct formatting please use a hyphen.*
 
 Once that is done you are good to go! Remember to save often.
 
@@ -54,7 +55,7 @@ When you see that it's ok to push, add your changes. You can do this in a few wa
 
 >```add -A``` will add all of the changes that you've made since you last pushed  
 >```add <path_to_file>``` will add just the file that you specify  
->```add path_to_file/some_day*``` will add all of the posts with that day in the title
+>```add path_to_file/some-day*``` will add all of the posts with that day in the title
 
 #### 3. Commit your changes with a message  
 Now you have to commit your changes. In terminal, type the command ```commit -m``` and in quotation marks say what changes you made. For example:  ```commit -m "created post Hello World!"```
