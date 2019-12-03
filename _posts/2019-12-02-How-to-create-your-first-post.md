@@ -4,7 +4,7 @@ title: How to create your first post
 tags: [github, lab resources, how-to]
 ---
 
-If you do not already have a local copy of your reository on your computer you must clone it to your computer.
+If you do not already have a local copy of your repository on your computer you must clone it to your computer.
 
 ### Clone your repository
 
