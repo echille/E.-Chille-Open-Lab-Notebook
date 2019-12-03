@@ -59,3 +59,7 @@ Now you have to commit your changes. In terminal, type the command ```commit -m`
 
 #### 4. Push to GitHub  
 Finally, push your changes with the command ```git push```. If you get an error saying you need authorization, push again and this should prompt you to enter your user name and password.  
+
+
+---
+Resource for embedding videos into Markdown: [Video to Markdown](https://github.com/marcomontalbano/video-to-markdown)
