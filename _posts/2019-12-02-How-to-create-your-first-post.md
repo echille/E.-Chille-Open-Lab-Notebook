@@ -4,6 +4,12 @@ title: How to create your first post
 tags: [github, lab resources, how-to]
 ---
 
+### Overview:
+
+[![How to create your first post](https://i.ibb.co/M8tKQ76/https-i-ytimg-com-vi-Qh-CLq-Js-DIVE-maxresdefault.jpg)](https://youtu.be/QhCLqJsDIVE "How to create your first post")
+
+---
+
 If you do not already have a local copy of your repository on your computer you must clone it to your computer.
 
 ### Clone your repository
@@ -11,12 +17,8 @@ If you do not already have a local copy of your repository on your computer you 
 #### 1. Copy the URL  
 Navigate to your repository on your browser, click "Clone or Download" and copy the url. 
 
-[![How to create your first GitHub post: Part 1](https://i.ibb.co/DgwnWyw/https-i-ytimg-com-vi-g-Avu58f-Jfco-maxresdefault.jpg)](https://youtu.be/gAvu58fJfco "How to create your first GitHub post: Part 1")
-
 #### 2. Clone in Terminal  
 Next, navigate to terminal, move to the directory where you want to place your repository, and run the command ```git clone``` to clone the repository. Then navigate to that directory using the ```cd``` command and check to see if everything is in the repo using the ```ls``` command.
-
-[![How to create your first GitHub post: Part 2](https://i.ibb.co/1Lb5GBN/https-i-ytimg-com-vi-Bg-RSUf0r5-BQ-hqdefault.jpg)](https://youtu.be/BgRSUf0r5BQ "How to create your first GitHub post: Part 2")  
 
 ---
 
@@ -37,9 +39,6 @@ title: Acropora Larvae DNA/RNA Extraction Batch 3
 tags: [DNA, RNA, eggs, sperm]
 ---
 ```
-
-[![How to create your first GitHub post: Part 3](https://i.ibb.co/0h0VNkD/https-i-ytimg-com-vi-75-O0-XCYi-Pq-A-hqdefault.jpg)](https://youtu.be/75O0XCYiPqA "How to create your first GitHub post: Part 3")  
-*Note: The video shows the file name replace spaces in the title with underscores. This is incorrect. For correct formatting please use a hyphen.*
 
 Once that is done you are good to go! Remember to save often.
 
@@ -62,8 +61,6 @@ Now you have to commit your changes. In terminal, type the command ```commit -m`
 
 #### 4. Push to GitHub  
 Finally, push your changes with the command ```git push```. If you get an error saying you need authorization, push again and this should prompt you to enter your user name and password.  
-
-[![How to create your first GitHub post: Part 4](https://i.ibb.co/hg46h0V/https-i-ytimg-com-vi-i1z-P-4t-ZCQk-maxresdefault.jpg)](https://youtu.be/i1zP_4tZCQk "How to create your first GitHub post: Part 4")
 
 That's it! You're on your way! 
 ---
