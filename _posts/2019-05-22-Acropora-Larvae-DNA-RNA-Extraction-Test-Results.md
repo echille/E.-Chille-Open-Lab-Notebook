@@ -1,10 +1,16 @@
-## Larvae from FACE PUF Morea Project
+---
+layout: post
+title: Acropora Larvae DNA/RNA Extraction Test Results
+tags: [DNA, RNA, eggs, sperm]
+---
+
+## Eggs and sperm from FACE PUF Morea Project
+
 
 --- 
 ***For detailed extraction protocol view post: [Protocol for DNA/RNA Extractions of Montipora Coral Larvae Using Zymo-Duet Extraction Kit](https://echille.github.io/E.-Chille-Open-Lab-Notebook/Protocol-for-DNA-RNA-Extractions-of-Montipora-Coral-Larvae-Using-Zymo-Duet-Extraction-Kit/)***
 
 ---
-
 
 #### Extraction Date: May 17, 2019
 **Samples**

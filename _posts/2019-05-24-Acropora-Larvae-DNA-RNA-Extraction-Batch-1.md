@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Acropora Larvae DNA/RNA Extraction Batch 1
+title: Acropora hyacinthus Eggs and Sperm DNA/RNA Extraction Batch 1
 tags: [DNA, RNA, eggs, sperm]
 ---
 
-## Larvae from FACE PUF Morea Project
+## Eggs and sperm from FACE PUF Morea Project
 
 --- 
 ***For detailed extraction protocol view post: [Protocol for DNA/RNA Extractions of Montipora Coral Larvae Using Zymo-Duet Extraction Kit](https://echille.github.io/E.-Chille-Open-Lab-Notebook/Protocol-for-DNA-RNA-Extractions-of-Montipora-Coral-Larvae-Using-Zymo-Duet-Extraction-Kit/)***
