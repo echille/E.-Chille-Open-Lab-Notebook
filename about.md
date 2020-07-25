@@ -8,7 +8,7 @@ title: About
 
 ### Hello and welcome to my open lab notebook!
 
-I am a Master's student at the University of Rhode Island studying the embryogenesis of the Pacific rice coral, Montipora capitata, and the effects of ocean acidification on its embryonic development on a molecular level. I am skilled in science communication, RNA/DNA extractions, scientific diving, microscopy, bioinformatics, and coral aquaculture. I obtained my B.S. in Marine Biology from the University of Rhode Island in 2019.
+I am a Master's student at the University of Rhode Island studying the embryogenesis of the Pacific rice coral, Montipora capitata, and the effects of ocean acidification on its embryonic development on a molecular level. I am skilled in science communication, RNA/DNA extractions, scientific diving, microscopy, bioinformatics, and coral aquaculture.
 
 &nbsp;
 &nbsp;
