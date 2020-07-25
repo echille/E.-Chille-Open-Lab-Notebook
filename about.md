@@ -6,7 +6,7 @@ title: About
 
 <img style="float: left;" src="https://raw.githubusercontent.com/echille/echille.github.io/master/img/IMG-2540.png">
 
-### Hello and welcome to my open lab notebook!**
+### Hello and welcome to my open lab notebook!
 
 I am a Master's student at the University of Rhode Island studying the embryogenesis of the Pacific rice coral, Montipora capitata, and the effects of ocean acidification on its embryonic development on a molecular level. I am skilled in science communication, RNA/DNA extractions, scientific diving, microscopy, bioinformatics, and coral aquaculture. I obtained my B.S. in Marine Biology from the University of Rhode Island in 2019.
 
@@ -32,6 +32,4 @@ Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu)
 
 ### Curriculum vitae:
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vQee35JvwMGP9xototW0W95oR68ju6Nz55uCw8I1uwy-_wt4QPBfZFLeo9UatuHOW7hEDBgRS1u_Ej2/pub?embedded=true" width = 720px height = 1500px scroll=true></iframe>
-
-*C.V. updated 25 July 2020*
+<iframe src="https://docs.google.com/document/d/1TB5ExVRoktK0GKNIFOP6ZvOatWKtrCNb6gyvzseMMzg/edit?usp=sharing" width="100%" height="600", scroll=true></iframe>
