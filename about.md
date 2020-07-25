@@ -23,7 +23,7 @@ If you would like to find more information about the Putnam Laboratory at the Un
 
 ### Contact me:
 
-Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu) 
+Email: [erin_chille@uri.edu](mailto:erin_chille@uri.edu) 
 
 
 ---
@@ -32,4 +32,4 @@ Email: [erin_chille@my.uri.edu](mailto:erin_chille@my.uri.edu)
 
 ### Curriculum vitae:
 
-<iframe src= "https://docs.google.com/document/d/1TB5ExVRoktK0GKNIFOP6ZvOatWKtrCNb6gyvzseMMzg/edit?usp=sharing" width= "100%" height= "600" scroll= true ></iframe>
+<iframe src= "https://docs.google.com/document/d/1TB5ExVRoktK0GKNIFOP6ZvOatWKtrCNb6gyvzseMMzg/edit?usp=sharing" width= "100%" height= "600" scroll= true></iframe>
