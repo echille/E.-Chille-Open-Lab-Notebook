@@ -32,4 +32,4 @@ Email: [erin_chille@uri.edu](mailto:erin_chille@uri.edu)
 
 ### Curriculum vitae:
 
-<iframe src= "https://docs.google.com/document/d/1TB5ExVRoktK0GKNIFOP6ZvOatWKtrCNb6gyvzseMMzg/edit?usp=sharing" width= "100%" height= "600" scroll= true></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vQee35JvwMGP9xototW0W95oR68ju6Nz55uCw8I1uwy-_wt4QPBfZFLeo9UatuHOW7hEDBgRS1u_Ej2/pub" width="100%" height="600" scroll=true></iframe>
