@@ -17,3 +17,9 @@ See [Erin's C.V.](https://docs.google.com/document/d/e/2PACX-1vQee35JvwMGP9xotot
 ### Contact me:
 
 Email: [erin_chille@uri.edu](mailto:erin_chille@uri.edu) 
+
+---
+
+### Curriculum vitae:
+
+<embed src="https://github.com/echille/echille.github.io/blob/master/img/Chille_Erin_Curriculum_Vitae.pdf" type="application/pdf">
