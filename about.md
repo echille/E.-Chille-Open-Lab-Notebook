@@ -10,19 +10,10 @@ I am a Master's student at the University of Rhode Island studying the embryogen
 
 I will be graduating with a M.S. in Evolutionary and Marine Biology in May 2021, and am planning on entering into a Ph.D. program in the Fall of 2021. My research interests are primarily focused on investigating the mechanisms that allow reef-building corals to adapt and acclimatize to multiple simultaneous stressors, and the implications of these mechanisms towards conservation and ecology. 
 
-If you would like to find more information about the Putnam Laboratory at the University of Rhode Island, please visit the Putnam Lab [website](http://putnamlab.com/).
+See [Erin's C.V.](https://docs.google.com/document/d/e/2PACX-1vQee35JvwMGP9xototW0W95oR68ju6Nz55uCw8I1uwy-_wt4QPBfZFLeo9UatuHOW7hEDBgRS1u_Ej2/pub) for more information.
 
 ---
 
 ### Contact me:
 
 Email: [erin_chille@uri.edu](mailto:erin_chille@uri.edu) 
-
-
----
-
-&nbsp;
-
-### Curriculum vitae:
-
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vQee35JvwMGP9xototW0W95oR68ju6Nz55uCw8I1uwy-_wt4QPBfZFLeo9UatuHOW7hEDBgRS1u_Ej2/pub?embedded=true"></iframe>
