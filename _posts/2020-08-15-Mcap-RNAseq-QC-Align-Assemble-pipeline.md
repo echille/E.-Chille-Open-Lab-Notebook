@@ -1,6 +1,6 @@
 ---
 layout: post
-title: General Template For Writing A Protocol in Your Lab Notebook
+title: M. capitata RNAseq QC, Alignment, Assembly Bioinformatic Pipeline
 tags: [ Protocol, RNASeq, QC, Alignment, Assembly, bioinformatics ]
 ---
 
