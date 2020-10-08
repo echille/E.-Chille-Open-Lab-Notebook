@@ -16,7 +16,7 @@ Data uploaded and analyzed on the URI HPC [bluewaves](https://web.uri.edu/hpc-re
 
 ### Project overview
 
-![bioinformatic_pipeline.png](https://raw.githubusercontent.com/echille/Montipora_OA_Development_Timeseries/master/_images/bioinformatic_pipeline.png)  
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://app.lucidchart.com/documents/embeddedchart/be6d7b57-e86e-4c26-a279-ce26a17c4b7c" id="cS3C0DLBm0~_"></iframe></div> 
 
 **Bioinformatic tools used in analysis:**  
 Quality check: [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/), [MultiQC](https://multiqc.info/)  
