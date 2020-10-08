@@ -1,13 +1,11 @@
 ---
 layout: post
 title: M. capitata RNAseq QC, Alignment, Assembly Bioinformatic Pipeline
+Author: Erin Chille 
+Last Updated: 2020/08/15  
 tags: [ Protocol, RNASeq, QC, Alignment, Assembly, bioinformatics ]
 ---
 
-# *M. capitata* RNAseq QC, Alignment, Assembly Bioinformatic Pipeline
-
-Author: Erin Chille 
-Last Updated: 2020/08/15  
 Data uploaded and analyzed on the URI HPC [bluewaves](https://web.uri.edu/hpc-research-computing/using-bluewaves/) server 
 
 *The following document contains the bioinformatic pipeline used for cleaning, aligning and assembling our raw RNA sequences. These commands were compiled into bash scripts to run on the bluewaves server and are available on the [project repository](https://github.com/echille/Montipora_OA_Development_Timeseries/tree/master/Scripts)* 
