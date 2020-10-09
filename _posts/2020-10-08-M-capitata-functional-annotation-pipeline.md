@@ -1,7 +1,9 @@
 ---
 layout: post
-title: *M. capitata* functional annotation pipeline 
-tags: [Protocol, annotation, RNASeq, GO, KEGG ]
+title: M. capitata functional annotation pipeline 
+Author: Erin Chille 
+Last Updated: 2020/10/08 
+tags: [ Protocol, annotation, RNASeq, GO, KEGG ]
 ---
 
 ## Overview
