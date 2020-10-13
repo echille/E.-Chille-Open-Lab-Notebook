@@ -55,7 +55,9 @@ The commands that I used are below, however, the script I used to execute this o
 *It may take a few days depending on the number of sequences you have the M. cap genome (~63,000 genes) took 4.5 days*
 
 
-**Alignment Options:**  
+**Blastx: Align translated DNA query sequences against a protein reference database**
+
+*Options:*
 - **-d** - Path to nr database  
 - **-q** - Path to reference fasta file  
 - **-o** - Base output name  
@@ -66,7 +68,9 @@ The commands that I used are below, however, the script I used to execute this o
 - **-k** - Maximum top sequences. Set at **1** because I only wanted the top sequence reported for each gene.  
 - **--unal** - Report unaligned queries (yes=**1**, no=0). 
 
-**View Options:**  
+**View: Generate formatted output from DAA files**
+
+*Options:*  
 - **-a** - Path to input file  
 - **-o** - Base output name  
 - **-f** - Output format. **5**=XML output. 
@@ -85,9 +89,42 @@ diamond view -a Mcap.annot.200806.daa -o Mcap.annot.200806.xml -f 5
 
 #### i) InterProScan
 
+InterProScan searches the database InterPro database that compiles information about proteins' function multiple other resources. I used it to map Kegg and GO terms to my Mcap reference protein sequences.
 
+The commands that I used are below, however, the script I used to execute this on bluewaves is available on my project [repository](https://github.com/echille/Montipora_OA_Development_Timeseries/blob/master/Scripts/IPS.sh). As input, InterProScan requires reference protein sequences. Below, I output the results to XML format, as it is the most data-rich output file and can be used as input into Blast2GO.
+
+*Note: Many fasta files willl use an asterisk to denote a STOP codon. InterProScan does not accept special characters within the sequences, so I removed them prior to running the program using the code below:*
+
+```
+cp Mcap.protein.fa ./Mcap.IPSprotein.fa
+sed -i 's/*//g' Mcap.IPSprotein.fa
+```
+
+**Interproscan.sh: Executes the InterProScan Program**
+
+*Options:*
+
+- **-version** - displays version number
+- **-f** - output format
+- **-i** - the input data
+- **-b** - the output file base
+- **-iprlookup** - enables mapping
+- **-goterms** - map GO Terms
+- **-pa** - enables pathway mapping
+
+```
+interproscan.sh -version
+interproscan.sh -f XML -i ../data/ref/Mcap.IPSprotein.fa -b ./Mcap.interpro.200824  -iprlookup -goterms -pa 
+interproscan.sh -mode convert -f GFF3 -i ./Mcap.interpro.200824.xml -b ./Mcap.interpro.200824
+```
 
 #### ii) Blast2GO
 
+Blast2GO 
+
 ### Step 3: Map Kegg terms to genome  
 *Can be done concurrently with Steps 1 and 2. Currently Troubleshooting*
+
+### Step 4: Uniprot
+
+### Step 5: Compilation of the output of different methods
