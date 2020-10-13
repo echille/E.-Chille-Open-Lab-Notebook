@@ -25,7 +25,10 @@ Functional annotation tags putative genes in a reference genome or transcriptome
             - parallel
             - util-linux v2.34
             - HMMER v3.3.1
-- A computer/laptop with [Blast2GO Basic](https://www.blast2go.com/) GUI installed 
+- A computer/laptop with  with the following programs:
+    - [Blast2GO Basic](https://www.blast2go.com/) GUI
+    - R v4.0.2
+    - RStudio v1.3.959
 
 ---
 
