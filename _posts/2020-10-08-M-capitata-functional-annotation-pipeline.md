@@ -128,3 +128,5 @@ Blast2GO
 ### Step 4: Uniprot
 
 ### Step 5: Compilation of the output of different methods
+
+Done in RStudio. See RMarkdown [page](https://github.com/echille/Montipora_OA_Development_Timeseries/blob/master/RNAseq_Analyses/annot/Mcap_annot_compile.html).
