@@ -2,7 +2,7 @@
 layout: post
 title: M. capitata functional annotation pipeline 
 Author: Erin Chille 
-Last Updated: 2020/10/08 
+Last Updated: 2020/10/19 
 tags: [ Protocol, annotation, RNASeq, GO, KEGG ]
 ---
 
@@ -26,7 +26,7 @@ Functional annotation tags putative genes in a reference genome or transcriptome
             - util-linux v2.34
             - HMMER v3.3.1
 - A computer/laptop with  with the following programs:
-    - [Blast2GO Basic](https://www.blast2go.com/) GUI
+    - [Blast2GO Basic](https://www.blast2go.com/) GUI v5.2.5
     - R v4.0.2
     - RStudio v1.3.959
 
@@ -113,23 +113,49 @@ sed -i 's/*//g' Mcap.IPSprotein.fa
 - **-b** - the output file base
 - **-iprlookup** - enables mapping
 - **-goterms** - map GO Terms
-- **-pa** - enables pathway mapping
+- **-pa** - enables Kegg term mapping
 
 ```
 interproscan.sh -version
 interproscan.sh -f XML -i ../data/ref/Mcap.IPSprotein.fa -b ./Mcap.interpro.200824  -iprlookup -goterms -pa 
-interproscan.sh -mode convert -f GFF3 -i ./Mcap.interpro.200824.xml -b ./Mcap.interpro.200824
 ```
 
 #### ii) Blast2GO
 
-Blast2GO 
+Blast2GO is a powerful annotation tool that takes the output from BLAST, and matches the IDs of the homologous sequences identified to gene ontology terms in the GO database. To map GO terms to our identified sequences, I used the DIAMOND output XML file as input for Blast2GO mapping. I then combined the output of Blast2GO with the XML file generated from InterProScan. Blast2GO mapping took about 16 hours to complete on Mcap's 63,227 Blasted sequences and about 45 minutes for Pacuta's Blasted 4,760 sequences.
+
+First, open Blast2GO. Click the down arrow next to "Start" and select "Load BLAST XML".  
+![Blast1](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/BLAST1.png)
+
+Once opened, your screen should look something like this:  
+![Blast2](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/BLAST2.png)
+
+Next, click mapping to open a pop-up window where you can specify run parameters. I used all default options. Note that the below photo was taken after running all of these steps so the example sequence appears blue and includes the blast, InterProScan and Annotated Tags. Your sequences should still appear Orange.  
+![Blast3](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/BLAST3.png)
+
+Once Blast is finished running, you can see the number of sequences that returned GO terms on the top right corner. The sequences with mapped GO terms generally appear at the top of the table while un-mapped sequences are towards the bottom. Finally, you can annotate your sequences from the GO terms obtained via the mapping step using the Annotation tool.  
+![Blast7](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/BLAST7.png)
+
+**Now we can use Blast2GO to merge (add and validate) all GO terms retrieved via InterProScan to the GO mappings retrieved from Blast2GO**
+
+To merge your annotation results, navigate to "File > Load InterproScan Results". Selecting this will open another pop-up window where you can upload your InterProScan XML file to the software. Be sure to specify that the InterProScan results are proteins.    
+![Blast4](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/BLAST4.png)
+
+Now that your InterProScan results have been loaded, you can easily merge your Blast2GO results and InterProScan results by navigating to the Purple Interpro button and selecting "Merge InterProScan GOs to Annotation".  
+![Blast5](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/BLAST5.png)
+
+The results of the merge will appear in the bottom right window. You can see that InterProscan retrieved many more GO terms than Blast2GO (red versus blue).  
+![Blast6](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/BLAST6.png)
+
+
+
+#### iii) Uniprot
 
 ### Step 3: Map Kegg terms to genome  
-*Can be done concurrently with Steps 1 and 2. Currently Troubleshooting*
+*Uses KofamScan. Can be done concurrently with Steps 1 and 2. Currently Troubleshooting*
 
-### Step 4: Uniprot
 
-### Step 5: Compilation of the output of different methods
+
+### Step 4: Compilation of the output of different methods
 
 Done in RStudio. See RMarkdown [page](https://github.com/echille/Montipora_OA_Development_Timeseries/blob/master/RNAseq_Analyses/annot/Mcap_annot_compile.html).
