@@ -161,13 +161,14 @@ The results of the merge will appear in the bottom right window. You can see tha
 Done in RStudio. See the RMarkdown [page](https://github.com/echille/Montipora_OA_Development_Timeseries/blob/master/RNAseq_Analyses/annot/Mcap_annot_compile.Rmd), that these instructions are heavily based on. This script takes the results of my functional annotation (following the steps outlined above with the exception of KofamScan) and combines the results.
 
 
+#### Step 0: Load your R toolkit  
 Load libraries
 ```{r, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(dplyr)
 ```
 
-#### Add Blast (DIAMOND) results
+#### Step 1: Add Blast (DIAMOND) results  
 ```{r}
 blast <- read_tsv("0-BLAST-GO-KO/1-DIAMOND/Mcap.annot.200806.tab", col_names = FALSE)
 colnames(blast) <- c("seqName", "top_hit", "pident", "length", "mismatch", "gapopen", "qstart", "qend", "sstart", "send", "evalue", "bitscore",  "qlen", "slen")
@@ -175,11 +176,11 @@ head(blast)
 dim(blast)
 ```
 
-#### Add Unitprot results
+#### Step 2: Add Unitprot results  
 
 Mapping with Uniprot was done multiple times to search their different libraries. Therefore, multiple output files from the Uniprot search will be compiled before adding to the final out file.
 
-First, load in the different files and see how many results were obtained from each. Additionally, make sure that they all contain the same columns and column names.
+First, load in the different files and see how many results were obtained from each. Additionally, make sure that they all contain the same columns and column names.  
 ```{r}
 u1 <- read_tsv("0-BLAST-GO-KO/4-Uniprot/Mcap_uniprot1.tab", col_names = TRUE)
 u1 <- u1[,c(1,4:12)]
@@ -212,7 +213,7 @@ head(u4)
 dim(u4)
 ```
 
-Then, merge the files and calculate how many 1) unique GO terms were retrieved in total, and 2) How many genes were annotated.
+Then, merge the files and calculate how many 1) unique GO terms were retrieved in total, and 2) How many genes were annotated.  
 ```{r}
 Uniprot_results <- bind_rows(u1, u2, u3, u4)
 Uniprot_results <- unique(Uniprot_results)
@@ -222,7 +223,7 @@ dim(Uniprot_results)
 nrow(filter(Uniprot_results, grepl("GO",go_ids))) #Genes with GO terms
 ```
 
-#### Blast2GO
+#### Step 3: Add Blast2GO/InterProScan Results
 
 Load in Blast2GO/InterProScan results. Remember, these output from these two methods were merged in Blast2GO.
 
@@ -235,7 +236,9 @@ dim(B2G_results)
 #nrow(filter(B2G_results, grepl("GO",GO_IDs))) #Genes with GO terms... Commented out because all have go terms
 ```
 
-#### Primary Assessment: Find unique and overlapping GO terms between the different terms
+#### Step 5: Primary Assessment
+
+Find unique and overlapping GO terms between the different terms
 
 Generate lists of GO terms for each method
 ```{r, warning=FALSE, message=FALSE}
@@ -282,7 +285,7 @@ Bunique <- setdiff(B2G.GOterms, Uniprot.GOterms) #Blast unique
 nrow(Bunique)
 ```
 
-#### Merge Annotations
+#### Step 6: Merge Annotations
 
 Match top_hits with description
 ```{r}
@@ -300,7 +303,9 @@ tail(Mcap_annot)
 dim(Mcap_annot)
 ```
 
-#### Final Assessment: Compare new and old annotation (if applicable). In this portion, we also make a table with that provides an overall summary of our annotation success.
+#### Step 7: Final Assessment
+
+Compare new and old annotation (if applicable). In this portion, we also make a table with that provides an overall summary of our annotation success.
 
 Load old annotation
 ```{r}
@@ -402,7 +407,7 @@ rownames(oldVSnew) <-  c("Average Evalue", "Median Evalue", "Average bitscore", 
 oldVSnew
 ```
 
-#### Finally, save your annotations!
+#### Step 8: Finally, save your annotations!
 
 ```{r}
 write_tsv(Mcap_annot, "0-BLAST-GO-KO/Output/200824_Mcap_Blast_GO_KO.tsv")
