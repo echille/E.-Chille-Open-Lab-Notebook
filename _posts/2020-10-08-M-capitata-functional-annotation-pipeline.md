@@ -2,7 +2,7 @@
 layout: post
 title: M. capitata functional annotation pipeline 
 Author: Erin Chille 
-Last Updated: 2020/10/19 
+Last Updated: 2021/01/20 
 tags: [ Protocol, annotation, RNASeq, GO, KEGG ]
 ---
 
@@ -315,15 +315,15 @@ nrow(old_annot)
 ```
 
 Find
-  1) Number of genes with significant alignments
-  2) Number of genes with Kegg mappings
-  3) Number of genes with GO mappings
-  4) Total number of GO terms
-  5) Number of unique GO terms
-  6) Total number of Kegg terms
-  7) Number of unique Kegg terms
-  8/9) Avg/med evalue
-  10/11) Avg/med bitscore
+  1) Number of genes with significant alignments  
+  2) Number of genes with Kegg mappings  
+  3) Number of genes with GO mappings  
+  4) Total number of GO terms  
+  5) Number of unique GO terms  
+  6) Total number of Kegg terms  
+  7) Number of unique Kegg terms  
+  8/9) Avg/med evalue  
+  10/11) Avg/med bitscore  
   
 
 Find metrics for old annotation
