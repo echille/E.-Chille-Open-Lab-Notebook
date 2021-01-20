@@ -163,13 +163,13 @@ Done in RStudio. See the RMarkdown [page](https://github.com/echille/Montipora_O
 
 #### Step 0: Load your R toolkit  
 Load libraries
-```{r, message=FALSE, warning=FALSE}
+```
 library(tidyverse)
 library(dplyr)
 ```
 
 #### Step 1: Add Blast (DIAMOND) results  
-```{r}
+```
 blast <- read_tsv("0-BLAST-GO-KO/1-DIAMOND/Mcap.annot.200806.tab", col_names = FALSE)
 colnames(blast) <- c("seqName", "top_hit", "pident", "length", "mismatch", "gapopen", "qstart", "qend", "sstart", "send", "evalue", "bitscore",  "qlen", "slen")
 head(blast)
@@ -181,7 +181,7 @@ dim(blast)
 Mapping with Uniprot was done multiple times to search their different libraries. Therefore, multiple output files from the Uniprot search will be compiled before adding to the final out file.
 
 First, load in the different files and see how many results were obtained from each. Additionally, make sure that they all contain the same columns and column names.  
-```{r}
+```
 u1 <- read_tsv("0-BLAST-GO-KO/4-Uniprot/Mcap_uniprot1.tab", col_names = TRUE)
 u1 <- u1[,c(1,4:12)]
 colnames(u1) <- c("top_hit", "uniprotkb_entry", "status", "protein_names", "gene_names", "organism", "length", "gene_ontology", "go_ids", "ko")
@@ -214,7 +214,7 @@ dim(u4)
 ```
 
 Then, merge the files and calculate how many 1) unique GO terms were retrieved in total, and 2) How many genes were annotated.  
-```{r}
+```
 Uniprot_results <- bind_rows(u1, u2, u3, u4)
 Uniprot_results <- unique(Uniprot_results)
 Uniprot_results$go_ids <- gsub(" ", "", Uniprot_results$go_ids)
@@ -227,7 +227,7 @@ nrow(filter(Uniprot_results, grepl("GO",go_ids))) #Genes with GO terms
 
 Load in Blast2GO/InterProScan results. Remember, these output from these two methods were merged in Blast2GO.
 
-```{r}
+```
 B2G_results <- read_tsv("0-BLAST-GO-KO/3-BLAST2GO/Mcap_blast_200806_GO_200811_Interpro_200824.txt", col_names = TRUE)
 B2G_results <- B2G_results[,c(3:5, 7:8,10:11)]
 colnames(B2G_results) <- c("seqName", "top_hit", "length", "eValue", "simMean", "GO_IDs", "GO_names")
@@ -241,7 +241,7 @@ dim(B2G_results)
 Find unique and overlapping GO terms between the different terms
 
 Generate lists of GO terms for each method
-```{r, warning=FALSE, message=FALSE}
+```
 Uniprot_GO <- select(Uniprot_results, top_hit, go_ids)
 splitted <- strsplit(as.character(Uniprot_GO$go_ids), ";") #split into multiple GO ids
 gene_ontology <- data.frame(v1 = rep.int(Uniprot_GO$top_hit, sapply(splitted, length)), v2 = unlist(splitted)) #list all genes with each of their GO terms in a single row
@@ -274,7 +274,7 @@ nrow(B2G.GOterms)
 ```
 
 Find intersections and unique results for each methods
-```{r}
+```
 UB <- intersect(B2G.GOterms, Uniprot.GOterms) #Blast2Go and Uniprot intersection
 nrow(UB)
 
@@ -287,8 +287,8 @@ nrow(Bunique)
 
 #### Step 6: Merge Annotations
 
-Match top_hits with description
-```{r}
+Match top_hits with description  
+```
 Mcap_annot <- left_join(blast, B2G_results, by="seqName")
 Mcap_annot <- select(Mcap_annot, seqName, top_hit.x, length.x, evalue, bitscore, simMean, GO_IDs, GO_names)
 Mcap_annot <- rename(Mcap_annot, "top_hit"="top_hit.x")
@@ -308,7 +308,7 @@ dim(Mcap_annot)
 Compare new and old annotation (if applicable). In this portion, we also make a table with that provides an overall summary of our annotation success.
 
 Load old annotation
-```{r}
+```
 old_annot <- read.csv("0-BLAST-GO-KO/OLD_200306_Mcap_annotations.csv", sep=",")
 head(old_annot)
 nrow(old_annot)
@@ -327,7 +327,7 @@ Find
   
 
 Find metrics for old annotation
-```{r}
+```
 old_Sig_Alingments=nrow(filter(old_annot, Accession!="#N/A")) #Number of genes with significant alignments
 old_Genes_with_Kegg=nrow(filter(old_annot, KEGG!="0")) #Number of genes with Kegg mappings
 old_Genes_with_GO=nrow(filter(old_annot, Annotation.GO.ID!="0")) #Number of genes with GO mappings
@@ -364,7 +364,7 @@ old_uniqueKegg <- length(old_uniqueKegg)
 ```
 
 Find metrics for new annotation
-```{r}
+```
 new_Sig_Alingments=nrow(Mcap_annot)
 new_Genes_with_GO <- nrow(filter(Mcap_annot, grepl("GO",GO_IDs))) #Genes with GO terms...
 new_Genes_with_Kegg <- nrow(filter(Mcap_annot, grepl("K",ko))) #Genes with Kegg terms...
@@ -398,7 +398,7 @@ new_uniqueKegg <- length(new_uniqueKegg)
 ```
 
 Compile into table for comparison
-```{r}
+```
 Old_annotation=c(old.avg.Eval, old.median.Eval, old.avg.bit, old.median.bit, old_Sig_Alingments, old_Genes_with_GO, old_totGO, old_uniqueGO, old_Genes_with_Kegg, old_totKegg, old_uniqueKegg)
 New_annotation=c(new.avg.Eval, new.median.Eval, new.avg.bit, new.median.bit, new_Sig_Alingments, new_Genes_with_GO, new_totGO, new_uniqueGO, new_Genes_with_Kegg, new_totKegg, new_uniqueKegg)
 oldVSnew <- data.frame(Old_annotation, New_annotation)
@@ -409,10 +409,11 @@ oldVSnew
 
 #### Step 8: Finally, save your annotations!
 
-```{r}
+```
 write_tsv(Mcap_annot, "0-BLAST-GO-KO/Output/200824_Mcap_Blast_GO_KO.tsv")
 ```
 
 ---
 
 Your annotation pipeline is now complete! Based on the results of your final assessment, you may choose to re-run portions of your annotation pipeline or stray from what I've done and try something new. Whatever you decide to do, best of luck!
+
