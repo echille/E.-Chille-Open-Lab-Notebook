@@ -151,10 +151,61 @@ The results of the merge will appear in the bottom right window. You can see tha
 
 #### iii) Uniprot
 
+[Uniprot](uniprot.org) is a website that hosts comprehensive, high-quality and open source databases of protein sequences and associated functional information. 
+
+![Uniprot-home.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Uniprot-home.png)
+
+
+
+The website includes a free tool, [Retrieve/ID mapping](https://www.uniprot.org/uploadlists/), that can be used to find the functional information for a set of proteins, so long as you have the accession IDs for the proteins of interest. Note, the website suggests only searching for up to 20,000 IDs at a time.
+
+![Uniprot-retrieve_id_mapping.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Uniprot-retrieve_id_mapping.png)
+
+To retrieve functional information hosted on Uniprot, I saved the accession IDs that I obtained from DIAMOND into a text file to upload to the Retrieve/ID mapping tool. My text file was a single column with each row containing and accession ID. For example:
+
+```
+XP_015756304.1
+XP_020602249.1
+PFX30396.1
+XP_029203026.1
+XP_029182388.1
+XP_032220127.1
+XP_032220127.1
+XP_032220127.1
+XP_027044234.1
+XP_031567130.1
+XP_022783438.1
+XP_020900065.1
+AGG36361.1
+```
+
+When your list of accession IDs is compiled, upload your file by clicking "Choose file" on the Retrieve/ID mapping webpage.
+
+You will now select the parameters of your search. Because the accession IDs for DIAMOND (and Blast) come from muliple different databases, you will likely try multiple different options in the "From" dropdown menu. There is only 1 "To" option, the Uniprot Protein Knowledgebase (UniProtKB).
+
+I had success setting "From" to EMBL/Genbank/DDBJ, EMBL/Genbank/DDBJ CDS, and UniprotKB AC/ID. A successful search will appear as so:  
+![Uniprot-success.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Uniprot-success.png)
+
+Once you have retrieved your mappings, you can choose what information you want to download by clicking the columns button. I included the columns: 
+- Entry  
+- Entry name
+- Status
+- Protein names
+- Gene names
+- Organism
+- Length
+- Gene ontology (GO)
+- Gene ontology IDs
+- Cross-reference (KO)
+
+When you're satisfied with the information present, click "Download" to reveal another dropdown menu. Select "Download all", set "Format" to TSV, and select "uncompressed". Click "GO" to download your functional annotations.
+
+Repeat the process above trying multiple "From" options in the Retrieve/ID mapping tool menu until you are satisified with the information you've retrieved. You can compile all of your output files later in R (Step 4).
+
 ### Step 3: Map Kegg terms to genome  
-*Uses KofamScan. Can be done concurrently with Steps 1 and 2. Currently Troubleshooting*
+Uses KofamScan. Can be done concurrently with Steps 1 and 2. 
 
-
+*Currently Troubleshooting*
 
 ### Step 4: Compilation and assessment of the output of different methods
 
@@ -315,15 +366,15 @@ nrow(old_annot)
 ```
 
 Find
-  1) Number of genes with significant alignments  
-  2) Number of genes with Kegg mappings  
-  3) Number of genes with GO mappings  
-  4) Total number of GO terms  
-  5) Number of unique GO terms  
-  6) Total number of Kegg terms  
-  7) Number of unique Kegg terms  
-  8/9) Avg/med evalue  
-  10/11) Avg/med bitscore  
+  1) Number of genes with significant alignments
+  2) Number of genes with Kegg mappings
+  3) Number of genes with GO mappings
+  4) Total number of GO terms
+  5) Number of unique GO terms
+  6) Total number of Kegg terms
+  7) Number of unique Kegg terms
+  8/9) Avg/med evalue
+  10/11) Avg/med bitscore
   
 
 Find metrics for old annotation
@@ -416,4 +467,3 @@ write_tsv(Mcap_annot, "0-BLAST-GO-KO/Output/200824_Mcap_Blast_GO_KO.tsv")
 ---
 
 Your annotation pipeline is now complete! Based on the results of your final assessment, you may choose to re-run portions of your annotation pipeline or stray from what I've done and try something new. Whatever you decide to do, best of luck!
-
