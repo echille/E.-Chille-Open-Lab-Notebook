@@ -209,7 +209,7 @@ Uses KofamScan. Can be done concurrently with Steps 1 and 2.
 
 ### Step 4: Compilation and assessment of the output of different methods
 
-Done in RStudio. See the RMarkdown [page](https://github.com/echille/Montipora_OA_Development_Timeseries/blob/master/RNAseq_Analyses/annot/Mcap_annot_compile.Rmd), that these instructions are heavily based on. This script takes the results of my functional annotation (following the steps outlined above with the exception of KofamScan) and combines the results.
+Done in RStudio. See the RMarkdown [page](https://github.com/echille/Mcapitata_Developmental_Gene_Expression_Timeseries/blob/master/0-BLAST-GO-KO/5-Compile/Mcap_annot_compile.Rmd), that these instructions are heavily based on. This script takes the results of my functional annotation (following the steps outlined above with the exception of KofamScan) and combines the results.
 
 
 #### Step 0: Load your R toolkit  
