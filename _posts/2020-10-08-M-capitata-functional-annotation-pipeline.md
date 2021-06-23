@@ -2,7 +2,7 @@
 layout: post
 title: M. capitata functional annotation pipeline 
 Author: Erin Chille 
-Last Updated: 2021/01/20 
+Last Updated: 2021/06/23 
 tags: [ Protocol, annotation, RNASeq, GO, KEGG ]
 ---
 
@@ -96,7 +96,7 @@ InterProScan searches the database InterPro database that compiles information a
 
 The commands that I used are below, however, the script I used to execute this on bluewaves is available on my project [repository](https://github.com/echille/Montipora_OA_Development_Timeseries/blob/master/Scripts/IPS.sh). As input, InterProScan requires reference protein sequences. Below, I output the results to XML format, as it is the most data-rich output file and can be used as input into Blast2GO.
 
-*Note: Many fasta files willl use an asterisk to denote a STOP codon. InterProScan does not accept special characters within the sequences, so I removed them prior to running the program using the code below:*
+*Note: Many fasta files will use an asterisk to denote a STOP codon. InterProScan does not accept special characters within the sequences, so I removed them prior to running the program using the code below:*
 
 ```
 cp Mcap.protein.fa ./Mcap.IPSprotein.fa
@@ -151,319 +151,63 @@ The results of the merge will appear in the bottom right window. You can see tha
 
 #### iii) Uniprot
 
-[Uniprot](uniprot.org) is a website that hosts comprehensive, high-quality and open source databases of protein sequences and associated functional information. 
+The [Uniprot Retrieve ID/Mapping Tool](https://www.uniprot.org/uploadlists/) is a useful web-based tool to gather GO and Kegg terms from the accession IDs available in it's database. To use this tool, you need a list of accession IDs, which you can get from your Blast2GO output (The Description column). You can save this column as a separate text file to use as input. 
 
-![Uniprot-home.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Uniprot-home.png)
+##### a) Generate a list of accession IDs
 
-
-
-The website includes a free tool, [Retrieve/ID mapping](https://www.uniprot.org/uploadlists/), that can be used to find the functional information for a set of proteins, so long as you have the accession IDs for the proteins of interest. Note, the website suggests only searching for up to 20,000 IDs at a time.
-
-![Uniprot-retrieve_id_mapping.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Uniprot-retrieve_id_mapping.png)
-
-To retrieve functional information hosted on Uniprot, I saved the accession IDs that I obtained from DIAMOND into a text file to upload to the Retrieve/ID mapping tool. My text file was a single column with each row containing and accession ID. For example:
-
+To generate a list of accession IDs, I opened the output of Blast2GO in Excel and deleted the first two columns, then saved and closed the file. Next, I opened the command-line and used cat and awk to write the second column (the description column) to a new text file.  
 ```
-XP_015756304.1
-XP_020602249.1
-PFX30396.1
-XP_029203026.1
-XP_029182388.1
-XP_032220127.1
-XP_032220127.1
-XP_032220127.1
-XP_027044234.1
-XP_031567130.1
-XP_022783438.1
-XP_020900065.1
-AGG36361.1
+cat 1-BLAST-GO-KO/3-BLAST2GO/Mcap_blast_200806_GO_200811_Interpro_200824.txt  | awk '{ print $2 }' > 1-BLAST-GO-KO/4-Uniprot/Mcap_accessions.txt
 ```
 
-When your list of accession IDs is compiled, upload your file by clicking "Choose file" on the Retrieve/ID mapping webpage.
+##### b) Upload the list to Uniprot to retrieve all hits
 
-You will now select the parameters of your search. Because the accession IDs for DIAMOND (and Blast) come from muliple different databases, you will likely try multiple different options in the "From" dropdown menu. There is only 1 "To" option, the Uniprot Protein Knowledgebase (UniProtKB).
+Uniprot has a very helpful guide to using this tool on their website. See https://www.uniprot.org/help/uploadlists. It will output a table of hits looking something like this:
 
-I had success setting "From" to EMBL/Genbank/DDBJ, EMBL/Genbank/DDBJ CDS, and UniprotKB AC/ID. A successful search will appear as so:  
-![Uniprot-success.png](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Uniprot-success.png)
+![Picture of table](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Uniprot-2.png)
 
-Once you have retrieved your mappings, you can choose what information you want to download by clicking the columns button. I included the columns: 
-- Entry  
-- Entry name
-- Status
-- Protein names
-- Gene names
-- Organism
-- Length
-- Gene ontology (GO)
-- Gene ontology IDs
-- Cross-reference (KO)
+To edit the columns you want to view/download click the "Columns" button:
 
-When you're satisfied with the information present, click "Download" to reveal another dropdown menu. Select "Download all", set "Format" to TSV, and select "uncompressed". Click "GO" to download your functional annotations.
+![Picture of table with column button circled](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Uniprot-3.png)
 
-Repeat the process above trying multiple "From" options in the Retrieve/ID mapping tool menu until you are satisified with the information you've retrieved. You can compile all of your output files later in R (Step 4).
+Finally, to download the table, click on the "Download" button. I downloaded mine as a tab-separated file, but GFF format may also be helpful.
+
+![Picture of table with Download sub-menu](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Uniprot-1.png)
 
 ### Step 3: Map Kegg terms to genome  
-Uses KofamScan. Can be done concurrently with Steps 1 and 2. 
+KofamScan is the command-line version of the popular KofamKOALA web-based tool, used to map Kegg terms (containing pathway information) to a genes. KofamScan and KofamKoala work by using HMMER/HMMSEARCH to search against KOfam (a customized HMM database of KEGG Orthologs (KOs). Mappings are considered robust because each Kegg term has an individual pre-defined threshold that a score has to exceed in order to map to a gene. While all mappings are outputted, high scoring (significant) assignments are highlighted with an asterisk.
 
-*Currently Troubleshooting*
+The commands that I used are below, however, the script I used to execute this on bluewaves is available on my project [repository](https://github.com/echille/Mcapitata_OA_Developmental_Gene_Expression_Timeseries/blob/17dea9b60448fd60b2a77ff7b13be3f259041b3f/5-Planula-GO-Enrichment-Analysis/a-Kegg-ontology/Mcap_KofamScan.sh). In order to run KofamScan, you will need a fasta file of predicted protein sequences (preferably the same one used to run InterProScan). 
 
-### Step 4: Compilation and assessment of the output of different methods
+#### i) Download and inflate the Kofam database.
 
-Done in RStudio. See the RMarkdown [page](https://github.com/echille/Mcapitata_Developmental_Gene_Expression_Timeseries/blob/master/0-BLAST-GO-KO/5-Compile/Mcap_annot_compile.Rmd), that these instructions are heavily based on. This script takes the results of my functional annotation (following the steps outlined above with the exception of KofamScan) and combines the results.
-
-
-#### Step 0: Load your R toolkit  
-Load libraries
-```
-library(tidyverse)
-library(dplyr)
-```
-
-#### Step 1: Add Blast (DIAMOND) results  
-```
-blast <- read_tsv("0-BLAST-GO-KO/1-DIAMOND/Mcap.annot.200806.tab", col_names = FALSE)
-colnames(blast) <- c("seqName", "top_hit", "pident", "length", "mismatch", "gapopen", "qstart", "qend", "sstart", "send", "evalue", "bitscore",  "qlen", "slen")
-head(blast)
-dim(blast)
-```
-
-#### Step 2: Add Unitprot results  
-
-Mapping with Uniprot was done multiple times to search their different libraries. Therefore, multiple output files from the Uniprot search will be compiled before adding to the final out file.
-
-First, load in the different files and see how many results were obtained from each. Additionally, make sure that they all contain the same columns and column names.  
-```
-u1 <- read_tsv("0-BLAST-GO-KO/4-Uniprot/Mcap_uniprot1.tab", col_names = TRUE)
-u1 <- u1[,c(1,4:12)]
-colnames(u1) <- c("top_hit", "uniprotkb_entry", "status", "protein_names", "gene_names", "organism", "length", "gene_ontology", "go_ids", "ko")
-head(u1)
-dim(u1)
-
-u2a <- read_tsv("0-BLAST-GO-KO/4-Uniprot/uniparc-to-uniprot/Mcap_uniprot2.tab", col_names = TRUE)
-u2a <- u2a[,c(1,3:11)]
-colnames(u2a) <- c("uniparc_entry", "uniprotkb_entry", "status", "protein_names", "gene_names", "organism", "length", "gene_ontology", "go_ids", "ko")
-
-u2b <- read_tsv("0-BLAST-GO-KO/4-Uniprot/uniparc-to-uniprot/uniparc-to-uniprot.tab", col_names = TRUE)
-colnames(u2b) <- c("top_hit", "uniparc_entry")
-head(u2b)
-u2 <- merge(u2a, u2b, by="uniparc_entry")
-u2 <- u2[,c(11,2:10)]
-head(u2)
-dim(u2)
-
-u3 <- read_tsv("0-BLAST-GO-KO/4-Uniprot/EMBL-CDS-to-uniprot.tab", col_names = TRUE)
-u3 <- u3[,c(1,3:11)]
-colnames(u3) <- c("top_hit", "uniprotkb_entry", "status", "protein_names", "gene_names", "organism", "length", "gene_ontology", "go_ids", "ko")
-head(u3)
-dim(u3)
-
-u4 <- read_tsv("0-BLAST-GO-KO/4-Uniprot/EMBL-prot-to-uniprot.tab", col_names = TRUE)
-u4 <- u4[,c(1,3:11)]
-colnames(u4) <- c("top_hit", "uniprotkb_entry", "status", "protein_names", "gene_names", "organism", "length", "gene_ontology", "go_ids", "ko")
-head(u4)
-dim(u4)
-```
-
-Then, merge the files and calculate how many 1) unique GO terms were retrieved in total, and 2) How many genes were annotated.  
-```
-Uniprot_results <- bind_rows(u1, u2, u3, u4)
-Uniprot_results <- unique(Uniprot_results)
-Uniprot_results$go_ids <- gsub(" ", "", Uniprot_results$go_ids)
-head(Uniprot_results)
-dim(Uniprot_results)
-nrow(filter(Uniprot_results, grepl("GO",go_ids))) #Genes with GO terms
-```
-
-#### Step 3: Add Blast2GO/InterProScan Results
-
-Load in Blast2GO/InterProScan results. Remember, these output from these two methods were merged in Blast2GO.
+To get the most up-to-date Kofam database, download it just before running KofamScan. You will also need to download the profiles associated with the Kofam database containing threshold information.
 
 ```
-B2G_results <- read_tsv("0-BLAST-GO-KO/3-BLAST2GO/Mcap_blast_200806_GO_200811_Interpro_200824.txt", col_names = TRUE)
-B2G_results <- B2G_results[,c(3:5, 7:8,10:11)]
-colnames(B2G_results) <- c("seqName", "top_hit", "length", "eValue", "simMean", "GO_IDs", "GO_names")
-head(B2G_results)
-dim(B2G_results)
-#nrow(filter(B2G_results, grepl("GO",GO_IDs))) #Genes with GO terms... Commented out because all have go terms
+curl -O ftp://ftp.genome.jp/pub/db/kofam/ko_list.gz | gunzip > ko_list #download and unzip KO database
+curl -O ftp://ftp.genome.jp/pub/db/kofam/profiles.tar.gz | tar xf > profiles #download and inflate profiles
 ```
 
-#### Step 5: Primary Assessment
+#### ii) Run KofamScan
 
-Find unique and overlapping GO terms between the different terms
+**exec_annotation: executes Kofamscan**
 
-Generate lists of GO terms for each method
-```
-Uniprot_GO <- select(Uniprot_results, top_hit, go_ids)
-splitted <- strsplit(as.character(Uniprot_GO$go_ids), ";") #split into multiple GO ids
-gene_ontology <- data.frame(v1 = rep.int(Uniprot_GO$top_hit, sapply(splitted, length)), v2 = unlist(splitted)) #list all genes with each of their GO terms in a single row
-colnames(gene_ontology) <- c("gene_id", "GO.ID")
-gene_ontology <- separate(gene_ontology, GO.ID, into = c("GO.ID", "ontology", "term"), sep=" ") #Split GO.ID, terms and ontologies into separate columns
-Uniprot.GOterms <- select(gene_ontology, gene_id, GO.ID)
-Uniprot.GOterms$GO.ID<- as.character(Uniprot.GOterms$GO.ID)
-Uniprot.GOterms[Uniprot.GOterms == 0] <- "unknown"
-Uniprot.GOterms$GO.ID <- replace_na(Uniprot.GOterms$GO.ID, "unknown")
-Uniprot.GOterms$GO.ID <- as.factor(Uniprot.GOterms$GO.ID)
-Uniprot.GOterms$gene_id <- as.factor(Uniprot.GOterms$gene_id)
-Uniprot.GOterms$GO.ID <- gsub(" ", "", Uniprot.GOterms$GO.ID)
-Uniprot.GOterms <- unique(Uniprot.GOterms)
-nrow(Uniprot.GOterms)
+To execute Kofamscan, use the exec_annotation script provided with program download. To run, use: ```exec_annotation {options} path_to_query_file```.
 
-B2G_GO <- select(B2G_results, top_hit, GO_IDs)
-splitted <- strsplit(as.character(B2G_GO$GO_IDs), ";") #split into multiple GO ids
-gene_ontology <- data.frame(v1 = rep.int(B2G_GO$top_hit, sapply(splitted, length)), v2 = unlist(splitted)) #list all genes with each of their GO terms in a single row
-colnames(gene_ontology) <- c("gene_id", "GO.ID")
-gene_ontology <- separate(gene_ontology, GO.ID, into = c("GO.ID", "ontology", "term"), sep=" ") #Split GO.ID, terms and ontologies into separate columns
-B2G.GOterms <- select(gene_ontology, gene_id, GO.ID)
-B2G.GOterms$GO.ID<- as.character(B2G.GOterms$GO.ID)
-B2G.GOterms[B2G.GOterms == 0] <- "unknown"
-B2G.GOterms$GO.ID <- replace_na(B2G.GOterms$GO.ID, "unknown")
-B2G.GOterms$GO.ID <- as.factor(B2G.GOterms$GO.ID)
-B2G.GOterms$gene_id <- as.factor(B2G.GOterms$gene_id)
-B2G.GOterms$GO.ID <- gsub(" ", "", B2G.GOterms$GO.ID)
-B2G.GOterms <- unique(B2G.GOterms)
-nrow(B2G.GOterms)
-```
+*Options (See KofamScan [repo](https://github.com/takaram/kofam_scan) for more options):*
 
-Find intersections and unique results for each methods
-```
-UB <- intersect(B2G.GOterms, Uniprot.GOterms) #Blast2Go and Uniprot intersection
-nrow(UB)
-
-Uunique <- setdiff(Uniprot.GOterms, B2G.GOterms) #Uniprot unique
-nrow(Uunique)
-
-Bunique <- setdiff(B2G.GOterms, Uniprot.GOterms) #Blast unique
-nrow(Bunique)
-```
-
-#### Step 6: Merge Annotations
-
-Match top_hits with description  
-```
-Mcap_annot <- left_join(blast, B2G_results, by="seqName")
-Mcap_annot <- select(Mcap_annot, seqName, top_hit.x, length.x, evalue, bitscore, simMean, GO_IDs, GO_names)
-Mcap_annot <- rename(Mcap_annot, "top_hit"="top_hit.x")
-Mcap_annot <- left_join(Mcap_annot, Uniprot_results, by="top_hit")
-Mcap_annot$GO <- paste(Mcap_annot$GO_IDs, Mcap_annot$go_ids, sep=';') #generate new column with concatenated GO IDs
-Mcap_annot$GO_terms <- paste(Mcap_annot$GO_names, Mcap_annot$gene_ontology, sep=';') #generate new column with concatenated GO IDs
-Mcap_annot <- select(Mcap_annot,-c("GO_IDs", "GO_names", "gene_ontology", "go_ids", "length"))
-colnames(Mcap_annot) <- c("gene_id", "description", "length","eValue", "bitscore","simMean", "UniProtKB_entry", "status", "protein_names", "gene_names","organism","ko","GO_IDs","GO_terms")
-names(Mcap_annot)
-head(Mcap_annot)
-tail(Mcap_annot)
-dim(Mcap_annot)
-```
-
-#### Step 7: Final Assessment
-
-Compare new and old annotation (if applicable). In this portion, we also make a table with that provides an overall summary of our annotation success.
-
-Load old annotation
-```
-old_annot <- read.csv("0-BLAST-GO-KO/OLD_200306_Mcap_annotations.csv", sep=",")
-head(old_annot)
-nrow(old_annot)
-```
-
-Find
-  1) Number of genes with significant alignments
-  2) Number of genes with Kegg mappings
-  3) Number of genes with GO mappings
-  4) Total number of GO terms
-  5) Number of unique GO terms
-  6) Total number of Kegg terms
-  7) Number of unique Kegg terms
-  8/9) Avg/med evalue
-  10/11) Avg/med bitscore
-  
-
-Find metrics for old annotation
-```
-old_Sig_Alingments=nrow(filter(old_annot, Accession!="#N/A")) #Number of genes with significant alignments
-old_Genes_with_Kegg=nrow(filter(old_annot, KEGG!="0")) #Number of genes with Kegg mappings
-old_Genes_with_GO=nrow(filter(old_annot, Annotation.GO.ID!="0")) #Number of genes with GO mappings
-
-old.metrics <- old_annot %>% filter(Accession!="#N/A")
-old.metrics$E.value <- as.numeric(old.metrics$E.value)
-old.metrics$Bitscore <- as.numeric(old.metrics$Bitscore)
-old.avg.Eval <-  mean(old.metrics$E.value)
-old.median.Eval <- median(old.metrics$E.value)
-old.avg.bit <- mean(old.metrics$Bitscore)
-old.median.bit <- median(old.metrics$Bitscore)
-
-# total GO terms
-old_GO <- select(old_annot, Name, Annotation.GO.ID)
-splitted <- strsplit(as.character(old_GO$Annotation.GO.ID), ";") #split into multiple GO ids
-old.GOterms <- data.frame(v1 = rep.int(old_GO$Name, sapply(splitted, length)), v2 = unlist(splitted)) #list all genes with each of their GO terms in a single row
-colnames(old.GOterms) <- c("gene_id", "GO.ID")
-old_totGO_narm <- filter(old.GOterms, GO.ID!="0")
-old_totGO <- nrow(old_totGO_narm)
-# total unique GO terms
-old_uniqueGO <- unique(old_totGO_narm$GO.ID)
-old_uniqueGO <- length(old_uniqueGO)
-
-# total Kegg terms
-old_Kegg <- select(old_annot, Name, KEGG)
-splitted <- strsplit(as.character(old_Kegg$KEGG), ";") #split into multiple Kegg ids
-old.Keggterms <- data.frame(v1 = rep.int(old_Kegg$Name, sapply(splitted, length)), v2 = unlist(splitted)) #list all genes with each of their Kegg terms in a single row
-colnames(old.Keggterms) <- c("gene_id", "Kegg.ID")
-old_totKegg <- nrow(filter(old.Keggterms, Kegg.ID!="0"))
-# total unique GO terms
-old_uniqueKegg <- filter(old.Keggterms, Kegg.ID!="0")
-old_uniqueKegg <- unique(old_uniqueKegg$Kegg.ID)
-old_uniqueKegg <- length(old_uniqueKegg)
-```
-
-Find metrics for new annotation
-```
-new_Sig_Alingments=nrow(Mcap_annot)
-new_Genes_with_GO <- nrow(filter(Mcap_annot, grepl("GO",GO_IDs))) #Genes with GO terms...
-new_Genes_with_Kegg <- nrow(filter(Mcap_annot, grepl("K",ko))) #Genes with Kegg terms...
-
-new.avg.Eval <- mean(Mcap_annot$eValue)
-new.median.Eval <- median(Mcap_annot$eValue)
-new.avg.bit <- mean(Mcap_annot$bitscore)
-new.median.bit <- median(Mcap_annot$bitscore)
-
-# total GO terms
-new_GO <- select(Mcap_annot, gene_id, GO_IDs)
-splitted <- strsplit(as.character(new_GO$GO_IDs), ";") #split into multiple GO ids
-new.GOterms <- data.frame(v1 = rep.int(new_GO$gene_id, sapply(splitted, length)), v2 = unlist(splitted)) #list all genes with each of their GO terms in a single row
-colnames(new.GOterms) <- c("gene_id", "GO.ID")
-new_totGO_narm <- filter(new.GOterms, GO.ID!="NA")
-new_totGO <- nrow(new_totGO_narm)
-# total unique GO terms
-new_uniqueGO <- unique(new_totGO_narm$GO.ID)
-new_uniqueGO <- length(new_uniqueGO)
-
-# total Kegg terms
-new_Kegg <- select(Mcap_annot, gene_id, ko)
-splitted <- strsplit(as.character(new_Kegg$ko), ";") #split into multiple Kegg ids
-new.Keggterms <- data.frame(v1 = rep.int(new_Kegg$gene_id, sapply(splitted, length)), v2 = unlist(splitted)) #list all genes with each of their Kegg terms in a single row
-colnames(new.Keggterms) <- c("gene_id", "Kegg.ID")
-new.Keggterms$Kegg.ID <- replace_na(new.Keggterms$Kegg.ID, "NA")
-new_totKegg_narm <- filter(new.Keggterms, Kegg.ID!="NA")
-new_totKegg <- nrow(new_totKegg_narm)
-new_uniqueKegg <- unique(new_totKegg_narm$Kegg.ID)
-new_uniqueKegg <- length(new_uniqueKegg)
-```
-
-Compile into table for comparison
-```
-Old_annotation=c(old.avg.Eval, old.median.Eval, old.avg.bit, old.median.bit, old_Sig_Alingments, old_Genes_with_GO, old_totGO, old_uniqueGO, old_Genes_with_Kegg, old_totKegg, old_uniqueKegg)
-New_annotation=c(new.avg.Eval, new.median.Eval, new.avg.bit, new.median.bit, new_Sig_Alingments, new_Genes_with_GO, new_totGO, new_uniqueGO, new_Genes_with_Kegg, new_totKegg, new_uniqueKegg)
-oldVSnew <- data.frame(Old_annotation, New_annotation)
-str(oldVSnew)
-rownames(oldVSnew) <-  c("Average Evalue", "Median Evalue", "Average bitscore", "Median bitscore", "Number of genes with significant alignments", "Number of genes with GO mappings", "Total number of GO terms", "Number of unique GO terms", "Number of genes with Kegg mappings", "Total number of Kegg terms", "Number of unique Kegg terms")
-oldVSnew
-```
-
-#### Step 8: Finally, save your annotations!
+- **-o** - set name of output file
+- **-k** - path to ko database (downloaded above)
+- **-p** - path to profile database (downloaded above)
+- **-E** - set minimum expect value for significant mappings
+- **-f** - output format
+- **--report-unannotated** - returns names of sequences with no mapped KO terms
+- **-pa** - enables Kegg term mapping
 
 ```
-write_tsv(Mcap_annot, "0-BLAST-GO-KO/Output/200824_Mcap_Blast_GO_KO.tsv")
+/opt/software/kofam_scan/1.3.0-foss-2019b/exec_annotation -o Mcap_KO_annot.txt -k ./ko_list -p ./profiles/eukaryote.hal -E 0.00001 -f detail-tsv --report-unannotated /data/putnamlab/erin_chille/mcap2019/data/ref/Mcap.protein.fa
 ```
 
----
+### Step 4: Compilation of the output of different methods
 
-Your annotation pipeline is now complete! Based on the results of your final assessment, you may choose to re-run portions of your annotation pipeline or stray from what I've done and try something new. Whatever you decide to do, best of luck!
+Done in RStudio. See RMarkdown [page](https://github.com/echille/Montipora_OA_Development_Timeseries/blob/master/RNAseq_Analyses/annot/Mcap_annot_compile.html).
