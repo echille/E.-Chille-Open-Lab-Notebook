@@ -6,7 +6,7 @@ Last Updated: 2021/06/23
 tags: [ Protocol, annotation, RNASeq, GO, KEGG ]
 ---
 
-## A pipeline using DIAMOND Blast search, InterProScan, Blast2GO, UniProt, & KofamScan
+### A pipeline using DIAMOND Blast search, InterProScan, Blast2GO, UniProt, & KofamScan
 
 **Functional annotation of a *Monitpora capitata* reference genome**
 
