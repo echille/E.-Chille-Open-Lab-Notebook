@@ -1,6 +1,7 @@
 ---
 layout: post
-title: M. capitata functional annotation pipeline 
+title: Mapping GO and Kegg terms to the M. capitata genome 
+subtitle: A pipeline using DIAMOND Blast search, InterProScan, Blast2GO, UniProt, & KofamScan
 Author: Erin Chille 
 Last Updated: 2021/06/23 
 tags: [ Protocol, annotation, RNASeq, GO, KEGG ]
