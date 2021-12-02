@@ -210,4 +210,4 @@ To execute Kofamscan, use the exec_annotation script provided with program downl
 
 ### Step 4: Compilation of the output of different methods
 
-Done in RStudio. See RMarkdown [page](https://github.com/echille/Montipora_OA_Development_Timeseries/blob/master/RNAseq_Analyses/annot/Mcap_annot_compile.html).
+Done in RStudio. See RMarkdown [page](https://github.com/echille/Mcapitata_Developmental_Gene_Expression_Timeseries/blob/master/0-BLAST-GO-KO/5-Compile/Mcap_annot_compile.Rmd).
