@@ -64,3 +64,6 @@ conda deactivate
 8. Import clade and ploidy .txt annotation file
 
 9. Color tree labels by clade/ploidy and export results as a pdf
+
+**Resulting Tree:**  
+![RAxML_GUI_ModelTest_Pocillopora_acuta_HIv1___Scaffold_000107F___length_1282968.463903-464598.profilin.min4.tree2](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/RAxML_GUI_ModelTest_Pocillopora_acuta_HIv1___Scaffold_000107F___length_1282968.463903-464598.profilin.min4.tree2.png)
