@@ -47,25 +47,25 @@ conda deactivate
 **We will use Pocillopora_acuta_HIv1___Scaffold_000107F___length_1282968.463903-464598.profilin.min4.fasta as input into raxmlGUI**
 
 
-### 2) Make phylogeny in raxmlGUI to verify region reconstitutes our full SNP phylogeny
+### 2) Make phylogeny with raxmlGUI (v2.0.7) and FigTree (v1.4.4) to verify region reconstitutes our full SNP phylogeny
 
 1. Exit the Rutgers **coral** server and ```scp``` the fasta file, Pocillopora_acuta_HIv1___Scaffold_000107F___length_1282968.463903-464598.profilin.min4.fasta, to your local computer.
 
-2. Open raxmlGUI. 
+2. Open raxmlGUI
 
 3. Load alignment file (Pocillopora_acuta_HIv1___Scaffold_000107F___length_1282968.463903-464598.profilin.min4.fasta)
 
 4. Ensure that the GTR model (for nucleotides) is selected
 
-5. Run ML Tree Inference with 500 Runs.
+5. Run ML Tree Inference with 500 Runs
 
 6. Select an outgroup. I selected Pacuta_ATAC_TP7_1445 because it was the weird triploid that reverted back to the diploid state.
 
 7. Click "Run Model Test"
 
-8. Exit RAxML and open FigTree v1.4.4
+8. Exit RAxML and open FigTree
 
-9. Reroot the tree by preference.
+9. Reroot the tree by preference
 
 8. Import clade and ploidy .txt annotation file
 
