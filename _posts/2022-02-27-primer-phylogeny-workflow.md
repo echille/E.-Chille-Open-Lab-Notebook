@@ -1,8 +1,14 @@
-# Workflow to test if canditate amplicon regions can reconstitute the full phylogeny with all SNPs
+---
+layout: post  
+title: Workflow to test if canditate amplicon regions can reconstitute the full phylogeny with all SNPs  
+Author: Erin Chille  
+Last Updated: 2022/02/27  
+tags: [ Protocol, phylogeny, RAxML, amplicon, primer, pcr]  
+---
 
 **The following protocol describes the process that I used to create a phylogeny of our *P. acuta* samples from a candidate amplicon region, using the profilin region as an example.**
 
-## 1. Extract region of interest from full SNP vcf and export as a fasta file
+### 1. Extract region of interest from full SNP vcf and export as a fasta file
 
 **Input:** As input, we require **1)** the full VCF file of all SNPs called during the genotyping process (GVCFall_SNPs.vcf.gz), and **2)** a BED file containing the region of interest (amplicon_regions.bed).
 
@@ -41,7 +47,7 @@ conda deactivate
 **We will use Pocillopora_acuta_HIv1___Scaffold_000107F___length_1282968.463903-464598.profilin.min4.fasta as input into raxmlGUI**
 
 
-## 2) Make phylogeny in raxmlGUI to verify region reconstitutes our full SNP phylogeny
+### 2) Make phylogeny in raxmlGUI to verify region reconstitutes our full SNP phylogeny
 
 1. Exit the Rutgers **coral** server and ```scp``` the fasta file, Pocillopora_acuta_HIv1___Scaffold_000107F___length_1282968.463903-464598.profilin.min4.fasta, to your local computer.
 
@@ -66,4 +72,5 @@ conda deactivate
 9. Color tree labels by clade/ploidy and export results as a pdf
 
 **Resulting Tree:**  
+
 ![RAxML_GUI_ModelTest_Pocillopora_acuta_HIv1___Scaffold_000107F___length_1282968.463903-464598.profilin.min4.tree2](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/RAxML_GUI_ModelTest_Pocillopora_acuta_HIv1___Scaffold_000107F___length_1282968.463903-464598.profilin.min4.tree2.png)
