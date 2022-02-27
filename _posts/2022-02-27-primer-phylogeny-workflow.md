@@ -1,4 +1,4 @@
-# Testing if canditate amplicon regions can reconstitute the full phylogeny with all SNPs
+# Workflow to test if canditate amplicon regions can reconstitute the full phylogeny with all SNPs
 
 **The following protocol describes the process that I used to create a phylogeny of our *P. acuta* samples from a candidate amplicon region, using the profilin region as an example.**
 
