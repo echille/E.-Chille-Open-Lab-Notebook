@@ -19,7 +19,7 @@ A gel matrix that contains an electrical field used to separate DNA strands base
 
 ### Materials:  
 - [Agarose](https://www.fishersci.com/shop/products/invitrogen-ultrapure-ultrapure-agarose-1/16500100)  
-- [TAE buffer](https://www.fishersci.com/shop/products/invitrogen-ultrapure-tae-buffer-10x/15558026)  
+- [1x TAE buffer](https://www.fishersci.com/shop/products/tris-acetate-edta-1x-solution-electrophoresis-fisher-bioreagents-2/BP24344)  
 - Kimwipes  
 - Microwave  
 - [GelGreen,](https://biotium.com/product/gelgreen-nucleic-acid-gel-stain/) 10000x in water  
@@ -30,6 +30,8 @@ A gel matrix that contains an electrical field used to separate DNA strands base
 - DNA  
 - Gel Imager
 - Computer with GeneSnap software installed
+
+***Note**: GelGreen must be stored in the dark. I have it stored (along with a weighboat and lab spatula) in the small drawer on the far right of the gel bench.* 
 
 ### Protocol:
 
