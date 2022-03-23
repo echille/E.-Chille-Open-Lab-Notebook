@@ -40,10 +40,10 @@ A gel matrix that contains an electrical field used to separate DNA strands base
 1. Making gels:  
 **For a 1% gel:**  
   - Small box (75 mL): 75mL new 1X TAE buffer and .75g agarose  
-  - Med box (100mL): 100mL new 1X TAE buffer and 1g agarose   
+  - Medium box (100mL): 100mL new 1X TAE buffer and 1g agarose   
 **For a 1.5% gel:**  
-  - small box: 75mL new 1X TAE buffer and 1.12g agarose  
-  - med box: 100mL new 1X TAE buffer and 1.5g agarose  
+  - Small box (75 mL): 75mL new 1X TAE buffer and 1.12g agarose  
+  - Medium box (100 mL): 100mL new 1X TAE buffer and 1.5g agarose  
 2. Use a weigh boat to measure agarose and using the Erlenmeyer flask from the gel bench to measure the TAE.  
 3. Mix in an Erlenmeyer flask, add the agarose by taco-ing the weigh boat and carefully pouring the powder as to not get it stuck to the side of the flask. Pour up to your desired volume with new 1X TAE.  
 4. Put a scrunched Kimwipe in the mouth of the flask and put in the microwave for 1 minute. Every 20 seconds open microwave and swirl flask. Use glove because glass gets hot and don’t be afraid to check too often because it can boil over. Microwaving time can vary, so keep adding time until when you look at the liquid when swirling it is completely clear and there are no “flakes”.  
