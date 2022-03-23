@@ -1,13 +1,11 @@
 ---
 layout: post
-title: Gel Electrophoresis Protocol
+title: Bhattacharya Lab Gel Electrophoresis Protocol  
 date: '2022-03-22'
 categories: Protocols
 tags: DNA, gel electrophoresis
 projects: Bhattacharya Lab
 ---
-
-# Bhattacharya Lab Gel Electrophoresis Protocols  
 
 *Below based on Putnam Lab Protocol written by [M. Schedl](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/).*
 
@@ -37,30 +35,28 @@ A gel matrix that contains an electrical field used to separate DNA strands base
 
 #### Part 1. Making the gel
 
-1. For small gel box, make a 75mL gel mix, for the medium box make a 100mL mix.  
-2. Making gels:  
-For a 1% gel:  
-  - small box: 75mL new 1X TAE buffer and .75g agarose  
-  - med box: 100mL new 1X TAE buffer and 1g agarose   
-  For a 1.5% gel:  
+1. Making gels:  
+**For a 1% gel:**  
+  - Small box (75 mL): 75mL new 1X TAE buffer and .75g agarose  
+  - Med box (100mL): 100mL new 1X TAE buffer and 1g agarose   
+ **For a 1.5% gel:**  
   - small box: 75mL new 1X TAE buffer and 1.12g agarose  
   - med box: 100mL new 1X TAE buffer and 1.5g agarose  
-3.	Use a weigh boat to measure agarose and using the Erlenmeyer flask from the gel bench to measure the TAE.  
-4.	Mix in an Erlenmeyer flask, add the agarose by taco-ing the weigh boat and carefully pouring the powder as to not get it stuck to the side of the flask. Pour up to your desired volume with new 1X TAE.  
-5.	 Put a scrunched Kimwipe in the mouth of the flask and put in the microwave for 1 minute. Every 20 seconds open microwave and swirl flask. Use glove because glass gets hot and don’t be afraid to check too often because it can boil over.  
-6.	Microwaving time can vary, so keep adding time until when you look at the liquid when swirling it is completely clear and there are no “flakes”.  
-7.	Add 5μl GelRed or 1μl GelGreen to the liquid and swirl the flask to mix thoroughly.
-8.	Set up gel cast mold, place small tray in the gel box sideways and make sure there is an air-tight seal with the rubber noodles.  
-9.	Let gel cool up to 5 minutes in the flask before pouring into the gel tray, if you can safely hold it, that's a good sign it's ready.  
-10.	Put desired comb size into the tray.  
-11.	Using a pipette tip, move any bubbles to the side of the tray.  
-12.	Let harden until opaque and cool ~30min.  
+2. Use a weigh boat to measure agarose and using the Erlenmeyer flask from the gel bench to measure the TAE.  
+3. Mix in an Erlenmeyer flask, add the agarose by taco-ing the weigh boat and carefully pouring the powder as to not get it stuck to the side of the flask. Pour up to your desired volume with new 1X TAE.  
+4. Put a scrunched Kimwipe in the mouth of the flask and put in the microwave for 1 minute. Every 20 seconds open microwave and swirl flask. Use glove because glass gets hot and don’t be afraid to check too often because it can boil over. Microwaving time can vary, so keep adding time until when you look at the liquid when swirling it is completely clear and there are no “flakes”.  
+5. Add 5μl GelRed or 1μl GelGreen to the liquid and swirl the flask to mix thoroughly.
+6. Set up gel tank, place small tray in the gel box sideways and make sure there is an air-tight seal with the rubber noodles.  
+7. Let gel cool up to 5 minutes in the flask before pouring into the gel tray, if you can safely hold it, that's a good sign it's ready.  
+8. Put desired comb size into the tray.  
+9. Using a pipette tip, move any bubbles to the side of the tray.  
+10. Let harden until opaque and cool ~30min.  
 
 #### Part 2: Running the gel  
 1.	Take out and orient the hardened gel with the comb side to the top of the box. Take the comb out of the hardened gel.  
 2.	Pour enough “used” TAE buffer into the gel box to cover the gel with a thin layer of liquid and make sure there are no dimples where the wells are.  
 3.	In a new strip tube, make 5μl aliquots of your DNA samples. Add 1μl of loading dye to each sample and vortex and spin down to mix.  
-4.	Add 3-4μl of the appropriate ladder to the first well in the gel.  
+4.	Add 3-4μl of the appropriate ladder to the first well in the gel. *Note:* Do this for each row in your gel.  
 5.	Add your samples to each well: ~6μl. Make sure you have made a map in your notebook that shows the order of samples.  
 6.	Make sure gel is set up to “run towards red”  – the black (-) (top of the rig next to the wells) and red (+) (bottom of the rig near the end of the gel) cords of the gel rig..  
 7.	Plug black cable into black insert and red cable into red insert of the gel box.  
