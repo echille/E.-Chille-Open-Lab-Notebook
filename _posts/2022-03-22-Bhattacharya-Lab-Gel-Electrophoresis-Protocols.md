@@ -22,7 +22,7 @@ A gel matrix that contains an electrical field used to separate DNA strands base
 - [1x TAE buffer](https://www.fishersci.com/shop/products/tris-acetate-edta-1x-solution-electrophoresis-fisher-bioreagents-2/BP24344)  
 - Kimwipes  
 - Microwave  
-- [GelGreen,](https://biotium.com/product/gelgreen-nucleic-acid-gel-stain/) 10000x in water  
+- [GelGreen, 10000x in water](https://biotium.com/product/gelgreen-nucleic-acid-gel-stain/) (is a non-toxic alternative to ethidium bromide)
 - 6x loading dye, such as Promega [Blue/Orange Dye](promega.com/products/biochemicals-and-labware/biochemical-buffers-and-reagents/blue_orange-loading-dye_-6x/?catNum=G1881) or New England Biolabs' [Purple Dye](https://www.neb.com/products/b7024-gel-loading-dye-purple-6x)  
 - Gel electrophoresis power supply  
 - Gel tank (see image above)
@@ -31,7 +31,7 @@ A gel matrix that contains an electrical field used to separate DNA strands base
 - Gel Imager
 - Computer with GeneSnap software installed
 
-***Note**: GelGreen must be stored in the dark. I have it stored (along with a weighboat and lab spatula) in the small drawer on the far right of the gel bench.* 
+***Note:** GelGreen must be stored in the dark. I have it stored (along with a weighboat and lab spatula) in the small drawer on the far right of the gel bench.* 
 
 ### Protocol:
 
