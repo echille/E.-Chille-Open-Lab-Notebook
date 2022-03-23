@@ -39,7 +39,7 @@ A gel matrix that contains an electrical field used to separate DNA strands base
 **For a 1% gel:**  
   - Small box (75 mL): 75mL new 1X TAE buffer and .75g agarose  
   - Med box (100mL): 100mL new 1X TAE buffer and 1g agarose   
- **For a 1.5% gel:**  
+**For a 1.5% gel:**  
   - small box: 75mL new 1X TAE buffer and 1.12g agarose  
   - med box: 100mL new 1X TAE buffer and 1.5g agarose  
 2. Use a weigh boat to measure agarose and using the Erlenmeyer flask from the gel bench to measure the TAE.  
