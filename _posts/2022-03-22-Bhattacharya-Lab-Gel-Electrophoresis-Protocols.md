@@ -31,7 +31,7 @@ A gel matrix that contains an electrical field used to separate DNA strands base
 - Gel Imager
 - Computer with GeneSnap software installed
 
-***Note:** GelGreen must be stored in the dark. I have it stored (along with a weighboat and lab spatula) in the small drawer on the far right of the gel bench.* 
+**Note:** GelGreen must be stored in the dark. I have it stored (along with a weighboat and lab spatula) in the small drawer on the far right of the gel bench.
 
 ### Protocol:
 
@@ -76,12 +76,13 @@ A gel matrix that contains an electrical field used to separate DNA strands base
 
 #### Part 4: Cleanup  
 1.	Slide the gel off the imagerwhen you are done and place it in the large plastic jar in the SAA for gel waste.  
-2.	Pour the leftover TAE from the gel box into the used TAE container using a funnel kept in the drawer.  
+2.	Pour the leftover TAE from the gel box into the used TAE container using a funnel.  
 3.	Rinse the gel box, comb, and flask in DI type II water.  
 4.	Wipe the imager with a Kimwipe and DI type II water.  
 
-### Parameters for Pacu Ploidy PCR Amplification Project:  
+### Recommended Parameters for a typical small gel (18 samples, 2 ladders)  
+**Note:** These parameters will vary depending on the length of the gel tank and the weight of the target fragment). See [Thermo Fischer's Nucleic Acid Electrophoresis Workflow](https://www.thermofisher.com/us/en/home/life-science/cloning/cloning-learning-center/invitrogen-school-of-molecular-biology/na-electrophoresis-education/na-electrophoresis-workflow.html) for further reference.  
 - 75 μl TAE buffer + 0.75 g agarose + 1 μl of Biotium gel GREEN gel stain to make a 1% agarose gel  
 - 5 μl samples + 1 μl 6x Promega Blue/Orange loading dye  
-- 4 μl GoldBio 1 kb PLUS™ DNA Ladder + 1 μl 6x Promega Blue/Orange loading dye  
-- Run at 100V for 45 minutes  
+- 5 μl GoldBio 1 kb PLUS™ DNA Ladder for each row of wells  
+- Run at 120V for 1 hour  
