@@ -11,11 +11,12 @@ projects: Bhattacharya Lab, Antibody Stress Test
 
 ### Goal:
 
-To qualitatively compare the concentrations of specific, targeted proteins in a coral tissue sample. For example, we will be using Dot Blot assays to determine if a protein is present at higher or lower concentrations in stressed versus healthy corals. The darker the dot is, the higher the concentration of the targeted protein (Fig. 1). Proteins are targeted from the poole of extracted proteins using monoclonal antibodies that we purchased from ABClonal. These specific were targeted due to their tendency for up- or down-regulation under heat stress, as observed by Bhattacharya Lab PhD Candidate, Amanda williams.
+Dot blot assays are used to qualitatively compare the concentrations of specific, targeted proteins in a coral tissue sample. For example, we will be using Dot Blot assays to determine if a protein is present at higher or lower concentrations in stressed versus healthy corals. The darker the dot is, the higher the concentration of the targeted protein (Fig. 1). Proteins are targeted from the pool of extracted proteins using monoclonal antibodies that we purchased from ABClonal. These specific proteins were targeted due to their tendency for up- or down-regulation under heat stress, as observed by Bhattacharya Lab PhD Candidate, [Amanda williams](https://sites.rutgers.edu/coralbase/people/amanda-williams/).
 
-| ![dot blot test](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/2022-03-29-GRB10.png) |  
-| --- |  
-| <b> Figure 1. The results of a dot blot assay performed by Bhattacharya Lab technician, Stephanie D'Elia <b> |  
+<figure>  
+<img src="https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/2022-03-29-GRB10.png" alt="Trulli" style="width:100%">  
+<figcaption align = "center"><b>Figure 1. </b> The results of a dot blot assay performed by Bhattacharya Lab technician, Stephanie D'Elia.</figcaption>  
+</figure>  
 
 ### Materials:  
  - Nitrocellulose membrane  
