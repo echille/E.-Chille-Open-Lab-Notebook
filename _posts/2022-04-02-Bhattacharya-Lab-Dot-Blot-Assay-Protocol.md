@@ -64,13 +64,11 @@ Dot blot assays are used to qualitatively compare the concentrations of specific
 **Washing Buffer: TBS-T (1 Liter)**  
 Store in refrigeration (~5℃)  
 - 0.05% of Tween 20 in TBS – 0.5 mL into 1 L of TBS (this is made from the TBS above, additional TBS is not needed)  
-- Or 0.1%  
-- DI – add up to 1 L  
 - [1x Tris Buffered Saline Tween 20](https://www.sigmaaldrich.com/US/en/support/calculators-and-apps/1x-tris-buffered-saline-tween-20)
 
 **Blocking Buffer: BSA in TBS-T (1 Liter)**  
 This solution doesn’t keep, is for one use (day) only. Can keep in refrigeration between steps.  
-- 5% [BSA or dried milk powder](https://www.sigmaaldrich.com/US/en/support/calculators-and-apps/bsa-blocking-buffer) – 50 g in 1 L of TBS-T or 25 g in 500 mL
+- 5% [dried milk powder](https://www.sigmaaldrich.com/US/en/support/calculators-and-apps/bsa-blocking-buffer) – 50 g in 1 L of TBS-T or 25 g in 500 mL
     - Calculate the volume of buffer needed before making so we don’t waste the milk powder/BSA  
     *- 1 L or even 500 mL is WAY too much. Read through the protocol and calculate exactly how many mL is required for the day and make that amount + a little more.*  
     - BSA or blotting grade dried milk powder is quite pricey! Our neighbors who do a lot of western blots said they use grocery store bought nonfat dried milk powder. When we run out of what we have, next time just go buy it cheap!  
