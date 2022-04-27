@@ -9,6 +9,8 @@ projects: Bhattacharya Lab
 
 This protocol is based on the Zymo Quick-DNA™ Miniprep Plus Kit [protocol](https://files.zymoresearch.com/protocols/_d4068_d4069_quick-dna_miniprep_plus_kit.pdf) and the Putnam Lab protocol using the Zymo Duet RNA/DNA Extraction Kit written by [E. Strand](https://github.com/emmastrand/EmmaStrand_Notebook/blob/master/_posts/2019-05-31-Zymo-Duet-RNA-DNA-Extraction-Protocol.md).
 
+![extraction vector](https://cdn.vectorstock.com/i/preview-2x/18/39/hand-in-red-tube-icon-flat-style-vector-26751839.webp)
+
 ### Reagent Preparation
 
 **Check kit contents and instructions to confirm prep steps.**
@@ -86,10 +88,11 @@ These steps remove the coral tissue from the skeleton, leaving the skeleton piec
 1. Set up yellow DNA spin columns and collection tubes, label appropriately.
 2. Warm elution liquids to 60-70°C (10mM Tris HCl pH. 8.0 and RNase free water).
 3. Add equal volume (420 µl) Genomic Binding Buffer to each sample tube.
-4. Vortex for 10-15 seconds and spin down.
-5. Transfer the mixture 840 µl (total volume) to a yellow DNA spin column.
-6. Centrifuge at 14,000 rpm for 1 minute.
-7. Discard the collection tube with the flow through and transfer the spin column to a new collection tube.
+4. Vortex for 10-15 seconds.
+5. Centrifuge at 14,000 rpm for 2-5 minutes to pellet unlysed tissues.
+6. Transfer the supernatent (~840 µL total volume) to a yellow DNA spin column.
+7. Centrifuge at 14,000 rpm for 1 minute.
+8. Discard the collection tube with the flow through and transfer the spin column to a new collection tube.
 
 #### 3. Removal of contaminants  
 1. Add 400 µl DNA Pre-Wash Buffer gently to the yellow DNA spin columns.
