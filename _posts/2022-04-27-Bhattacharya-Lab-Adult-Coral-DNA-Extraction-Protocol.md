@@ -1,17 +1,13 @@
 ---
 layout: post
-title: Adult-Coral-DNA-Extraction-Protocol
+title: DNA Extraction Protocol for Adult Corals
 date: '2022-04-27'
 categories: Protocols
 tags: DNA
-projects: Bhattacharya Lab
+projects: Bhattacharya Lab  
 ---
 
-# DNA Extraction Protocol for Adult Corals
-
-Zymo's Quick-DNA™ Miniprep Plus Kit [protocol](https://files.zymoresearch.com/protocols/_d4068_d4069_quick-dna_miniprep_plus_kit.pdf) was modified for our lab.
-
-Based on Putnam Lab protocols using the Zymo Duet  RNA/DNA Extraction Kit written by [E. Strand](https://github.com/emmastrand/EmmaStrand_Notebook/blob/master/_posts/2019-05-31-Zymo-Duet-RNA-DNA-Extraction-Protocol.md).
+This protocol is based on the Zymo Quick-DNA™ Miniprep Plus Kit [protocol](https://files.zymoresearch.com/protocols/_d4068_d4069_quick-dna_miniprep_plus_kit.pdf) and the Putnam Lab protocol using the Zymo Duet RNA/DNA Extraction Kit written by [E. Strand](https://github.com/emmastrand/EmmaStrand_Notebook/blob/master/_posts/2019-05-31-Zymo-Duet-RNA-DNA-Extraction-Protocol.md).
 
 ### Reagent Preparation
 
