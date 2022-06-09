@@ -7,7 +7,7 @@ tags: PCR
 projects: Bhattacharya Lab
 ---
 
-The Bhattacharya Lab houses an Eppendof Mastercycler (catalog number 5333). The manual can be found online ([here](http://www.biology.ualberta.ca/facilities/MBSU/uploads/services_pdf/mastercycler_gradient%5B1%5D.pdf)). The instructions here provide abridged instructions for running the machine. Please refer to the manual for more detailed instructions.
+The Bhattacharya Lab houses an **Eppendof Mastercycler (catalog number 5333)**. The manual can be found online ([here](http://www.biology.ualberta.ca/facilities/MBSU/uploads/services_pdf/mastercycler_gradient%5B1%5D.pdf)). The instructions here provide abridged instructions for running the machine. Please refer to the manual for more detailed instructions.
 
 ![thermocycler](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Thermocycler.png)
 
@@ -30,7 +30,7 @@ The Bhattacharya Lab houses an Eppendof Mastercycler (catalog number 5333). The 
 9. To hold the thermocycler at a specific temperature until you abort the program, use the down button to navigate down to "end", then press "2". It should now say: "HOLD: x°C".  Use the number pad on the right of the console to enter your holding temperature.  
 10. To complete your program, use the down button to navigate down to "end". One the right of the consold, select "Exit". It will now ask you if you want to save the program. Press "Enter" to save. You can now name your program.
 11. To name your program, use the "Sel" button to scroll through the internet. Use the arrows to move to the next character. Names can be a combination of letters and numbers. Once you are satisfied with your name, press "Exit".
-12. Hooray!! You can now use your program :-)
+12. Hooray!! You can now use your program **:-)**
 
 ### Example program
 
