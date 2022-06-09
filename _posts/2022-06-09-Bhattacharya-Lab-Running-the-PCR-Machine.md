@@ -1,15 +1,13 @@
 ---
 layout: post
-title: Bhattacharya-Lab-Running-the-PCR-Machine
+title: How to Run the Bhattacharya Lab PCR Machine (Thermocycler)
 date: '2022-06-09'
 categories: Protocols
 tags: PCR
 projects: Bhattacharya Lab
 ---
 
-# How to Run the Bhattacharya Lab PCR Machine
-
-The Bhattacharya Lab houses an Eppendof Mastercycler (catalog number 5333). The manual can be found online ([here](http://www.biology.ualberta.ca/facilities/MBSU/uploads/services_pdf/mastercycler_gradient%5B1%5D.pdf)). The instructions here provide abridged instructions for running the machine. Please refer to the manual for more detailed instructions.
+The Bhattacharya Lab houses an Eppendof Mastercycler (catalog number 5333). The manual can be found online ([here](http://www.biology.ualberta.ca/facilities/MBSU/uploads/services_pdf/mastercycler_gradient%5B1%5D.pdf)). The instructions here provide abridged instructions for running the machine. Please refer to the manual for more detailed instructions.
 
 ![thermocycler](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/Thermocycler.png)
 
