@@ -32,7 +32,7 @@ The Bhattacharya Lab houses an Eppendof Mastercycler (catalog number 5333). The 
 11. To name your program, use the "Sel" button to scroll through the internet. Use the arrows to move to the next character. Names can be a combination of letters and numbers. Once you are satisfied with your name, press "Exit".
 12. Hooray!! You can now use your program :-)
 
-## Example program
+### Example program
 
 Here is an example of a program I use to amplify the 16S region in extracted DNA from coral tissue samples:
 
