@@ -2,7 +2,7 @@
 layout: post  
 title: Hawaii 2022 Microbiome Biogeography Study 16S Amplicfication of Sediment Samples Run 1  
 date: '2022-06-21'  
-categories: Notebook Post  
+categories: Notebook  
 tags: Hawaii 2022, Bhattacharya Lab, PCR, Microbiome biogeography, Montipora capitata  
 projects: Bhattacharya Lab  
 ---
