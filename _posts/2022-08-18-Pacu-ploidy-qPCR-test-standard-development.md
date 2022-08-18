@@ -1,12 +1,11 @@
----  
-layout: post  
-title: Development of controls for *Pocillopora acuta* triploidy detection via qPCR 
-date: '2022-08-18'. 
-categories: Notebook Post  
-tags: Hawaii 2022, Bhattacharya Lab, PCR, Pocillopora, Pacu ploidy detection
-projects: Bhattacharya Lab, Pacu Ploidy  
----  
-
+---
+layout: post
+title: Development of controls for *Pocillopora acuta* triploidy detection via qPCR
+date: '2022-08-18'
+categories: Notebook
+tags: PCR, Bhattacharya Lab, PCR, Pocillopora, Pacu ploidy detection
+projects: Bhattacharya Lab, Pacu Ploidy
+---
 
 --- 
 **The goal of this notebook post is to explain how I developed the standards we will use for triploidy detection for the Pacu Ploidy project. We are developing a qPCR test to determine the ploidy of *P. acuta* individuals by detecting copy number of the ITS amplicon after several rounds of qPCR. All DNA used for the method will be normalized by mass, so it should take more cycles to amplify the DNA from the triploid samples because the they have a larger genome size, therefore will be fewer copies of the amplicon present in the same quantity of sample. this process is based off of the geneBlock design protocol [(link)](https://docs.google.com/document/d/1wsd2sOlhnXN42GGGdNAN4hTzYA81CeuaJ2q5s9vpBHc/edit) used by the Frank Laboratory at Kewalo Marine Lab**
