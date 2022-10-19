@@ -131,7 +131,7 @@ Follow Broad Range or High Sensitvity RNA Qubit [protocol](https://meschedl.gith
 ### RNA Quality  
 If RNA quantity is sufficient (typically >10 ng/µL) follow the Bhattachrya Agarose Bleach Gel [Protocol](hhttps://echille.github.io/E.-Chille-Open-Lab-Notebook/Bhattacharya-Lab-Gel-Electrophoresis-Protocols/), adapted from the Burgess Lab's [protocol](https://www.protocols.io/view/rna-quality-control-non-denaturing-agarose-34-blea-3byl4kp48vo5/v1) to determine RNA ***quality***. "Good" RNA should form two distinct bands a the very top of the gel. See example below:
 
-![RNA bleach gel](https://www.researchgate.net/profile/Budak-Drop-Out/post/Checking-RNA-integrity-through-TAE-gel/attachment/59d63344c49f478072ea212f/AS%3A273641667792898%401442252665068/image/275_wide.Par.5193.Image.275.377.1..jpg)
+![RNA bleach gel](https://www.qiagen.com/~/media/NextQ/Image%20Library/G/01/63/G_0163_RNeasy/1_5.ashx)
 
 ### RNA Purity  
-Run a Nanodrop assay for nucleic assays and note the 260/280 and 260/230 ratios. Pure RNA should have values ranging from 2.0±0.2 for 260/280 and values ranging from 2.1±0.1 for 260/230 [link](https://dna.uga.edu/wp-content/uploads/sites/51/2019/02/Note-on-the-260_280-and-260_230-Ratios.pdf).
+Run a Nanodrop assay for nucleic assays and note the 260/280 and 260/230 ratios. Pure RNA should have values ranging from 2.0±0.2 for 260/280 and values ranging from 2.1±0.1 for 260/230 ([link](https://dna.uga.edu/wp-content/uploads/sites/51/2019/02/Note-on-the-260_280-and-260_230-Ratios.pdf).)
