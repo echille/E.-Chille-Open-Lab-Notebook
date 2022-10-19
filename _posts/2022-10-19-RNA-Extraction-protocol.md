@@ -129,9 +129,9 @@ These steps analyze the quantity and quality of the RNA extracted and may be don
 Follow Broad Range or High Sensitvity RNA Qubit [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/) to analyze sample ***quantity***. Read all samples twice and take the average.
 
 ### RNA Quality  
-If RNA quantity is sufficient (typically >10 ng/µL) follow the Bhattachrya Agarose Bleach Gel [Protocol](hhttps://echille.github.io/E.-Chille-Open-Lab-Notebook/Bhattacharya-Lab-Gel-Electrophoresis-Protocols/) to determine RNA ***quality***. "Good" RNA should form two distinct bands a the very top of the gel. See example below:
+If RNA quantity is sufficient (typically >10 ng/µL) follow the Bhattachrya Agarose Bleach Gel [Protocol](hhttps://echille.github.io/E.-Chille-Open-Lab-Notebook/Bhattacharya-Lab-Gel-Electrophoresis-Protocols/), adapted from the Burgess Lab's [protocol](https://www.protocols.io/view/rna-quality-control-non-denaturing-agarose-34-blea-3byl4kp48vo5/v1) to determine RNA ***quality***. "Good" RNA should form two distinct bands a the very top of the gel. See example below:
 
-**Insert example**
+![RNA bleach gel](https://www.researchgate.net/profile/Budak-Drop-Out/post/Checking-RNA-integrity-through-TAE-gel/attachment/59d63344c49f478072ea212f/AS%3A273641667792898%401442252665068/image/275_wide.Par.5193.Image.275.377.1..jpg)
 
 ### RNA Purity  
-Run a Nanodrop assay for nucleic assays and note the 260/280 and 260/230 ratios. Pure RNA should have values ranging from __-__ for 260/280 and values ranging from __-__ for 260/230.
+Run a Nanodrop assay for nucleic assays and note the 260/280 and 260/230 ratios. Pure RNA should have values ranging from 2.0±0.2 for 260/280 and values ranging from 2.1±0.1 for 260/230 [link](https://dna.uga.edu/wp-content/uploads/sites/51/2019/02/Note-on-the-260_280-and-260_230-Ratios.pdf).
