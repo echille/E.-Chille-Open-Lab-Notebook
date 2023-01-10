@@ -1,13 +1,13 @@
----  
+---
 layout: post  
-title: Protocol for coral colony genotyping using the 18S-28S rDNA marker 
+title: Protocol for coral colony genotyping using the 18S-28S rDNA marker  
 date: '2023-01-09'. 
-categories: Notebook Post  
-tags: Bhattacharya Lab, PCR, genotyping
-projects: Bhattacharya Lab, Dark Genes
----  
+categories: Protocols  
+tags: Bhattacharya Lab, PCR, genotyping  
+projects: Bhattacharya Lab, Dark Genes    
+---
 
---- 
+
 **The protocol detailed below provides step-by-step instructions for how the Bhattacharya Lab genotyped the *Galaxea spp.* corals in our coral culturing facility and is based on the methodology outlined in [Takabayashi et al. 1998](https://www.researchgate.net/publication/37622411_A_coral-specific_primer_for_PCR_amplification_of_the_internal_transcribed_spacer_region_in_ribosomal_DNA). In short, the 18S-28S region was amplified from extracted DNA by PCR with forward and reverse primers A18S and ITS4, respectively. The resulting amplicons were sequenced at Azenta Life Sciences using the Sanger method. The resulting sequencies were quality-trimmed and aligned using MUSCLE. Pairwise distances between samples were used to inform relatedness.**
 
 ---
