@@ -49,10 +49,10 @@ projects: Bhattacharya Lab, Dark Genes
 2. Dilute each primer to 10 µM, using molecular grade water as the buffer. The final volume should be at least (1.25 µL x 3 replicates x (N samples + 2)).     
 3. Dilute the gDNA from each sample to 1 ng/uL, using molecular grade water as the buffer aiming for a final volume of 100uL.   
 4. Prepare PCR Reaction Working Solution. Aim to have enough for 20 µL per well, plus a little extra. 
-    - 12.5 µL MasterMix x N wells
-    - 1.25 µL A18S primer x 3 replicates x (N samples + 2)  
-    - 1.25 µL ITS4 primer x 3 replicates x (N samples + 2)  
-    - 5.00 µL molecular grade water x 3 replicates x (N samples + 2)
+    - 12.5 µL MasterMix x #wells
+    - 1.25 µL A18S primer x #wells  
+    - 1.25 µL ITS4 primer x #wells  
+    - 5.00 µL molecular grade water x #wells
 5. Transfer 20 µL of the PCR Reaction into each well.    
 6. Transfer 5 µL of gDNA to each well. Each well should now have a total volume of 25 µL of PCR solution. 
 7. Spin down your 96-well plate until all liquid has collected at the bottom of the wells and there are no visible bubbles.  
