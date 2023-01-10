@@ -1,10 +1,10 @@
 ---
-layout: post  
-title: Protocol for coral colony genotyping using the 18S-28S rDNA marker  
-date: '2023-01-09'. 
-categories: Protocols  
-tags: Bhattacharya Lab, PCR, genotyping  
-projects: Bhattacharya Lab, Dark Genes    
+layout: post
+title: Protocol for coral colony genotyping using the 18S-28S rDNA marker
+date: '2023-01-10'
+categories: Protocols
+tags: PCR, genotyping
+projects: Bhattacharya Lab  
 ---
 
 
