@@ -31,7 +31,7 @@ Take note of the following parameters in your lab notebook. Dilute all samples t
 Tests were run on:
 
  | Extraction Date  |  Sample ID | Type | DNA Quantity (ng/µL) | Stock (µL) | Buffer (ultrapure H20; µL) |  
- | --- | --- | --- | --- | --- | --- | --- |  
+ | --- | --- | --- | --- | --- | --- | 
 | 20220618 | S5 | Reef Sediment | 1.57 | 12.74 | 7.26 |  
 | 20220618 | S23 | Reef Sediment | 11.55 | 1.73 | 18.27 |  
 | 20220618 | S11 | Reef Sediment | 6.09 | 3.29 | 16.71 |  
