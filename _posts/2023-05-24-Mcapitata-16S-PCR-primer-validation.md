@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: Validation of 515F and 806R primers for *M. capitata* V4 microbiome analyses  
+title: Validation of 515F and 806R primers for M. capitata V4 microbiome analyses  
 date: '2023-05-24'  
 categories: Notebook Post  
 tags: Bhattacharya Lab, PCR, microbiome  
@@ -11,11 +11,11 @@ The workflow below provides step-by-step instructions for how the Bhattacharya L
 
 ## Sample information
 
-<To fill in>
+*To fill in*
 
 ## Contamination analysis
 
-<To fill in>
+*To fill in*
 
 ## QIIME2 Workflow
 
