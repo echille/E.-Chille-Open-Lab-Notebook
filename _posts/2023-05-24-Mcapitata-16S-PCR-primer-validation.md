@@ -112,8 +112,12 @@ qiime dada2 denoise-paired --verbose \
 
 The last step of decluttering our data is clustering our sequences into ASVs, or a single representative sequence for sequences with 97% similarity to each other. These ASVs will be stored as a *FeatureTable* along with the total count of their abundances in each sample.  
 ```
+wget https://data.qiime2.org/2023.5/common/silva-138-99-515-806-nb-classifier.qza #added to the qimme2 sub-directory
 METADATA="metadata/sample_metadata.txt"
-
+qiime feature-classifier classify-sklearn \
+  --i-classifier qimme2/silva-138-99-515-806-nb-classifier.qza \
+  --i-reads qimme2/rep-seqs.qza \
+  --o-classification qimme2/taxonomy.qza
 ```
 
 **TO BE CONTINUED...**
