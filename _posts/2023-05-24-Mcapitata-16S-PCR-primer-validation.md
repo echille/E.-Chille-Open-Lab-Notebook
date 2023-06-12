@@ -84,28 +84,29 @@ qiime tools import \
     --type 'SampleData[PairedEndSequencesWithQuality]' \
     --input-path $MANIFEST \
     --input-format PairedEndFastqManifestPhred33 \
-    --output-path sequences.qza
+    --output-path qimme2/sequences.qza
 ```
 
 ### 3. Denoise and declutter  
 
 First, we will remove adapter contamination. We know that our adapters content is about 0.1-0.3% because of the QC we did on the raw reads when assessing the amount of Mcap contamination. So, before we do anything else, we need to remove adapter contaminatio using the following code:  
 ```  
-qiime cutadapt trim-paired --verbose --i-demultiplexed-sequences sequences.qza \
---i-demultiplexed-sequences sequences.qza \
+qiime cutadapt trim-paired --verbose \
+--i-demultiplexed-sequences qimme2/sequences.qza \
 --p-anywhere-f CTGTCTCTTATACACATCT \
 --p-anywhere-r AGATGTGTATAAGAGACAG \
---o-trimmed-sequences trimmed_sequences.qza
+--o-trimmed-sequences qimme2/trimmed_sequences.qza
 ```  
 
 Next, we will denoise our data. In this part, we will trim off our primers. Our primers are 52 and 54 bp long, so we will truncate that part of the sequence. Because our sequences are 150 bp long and they don't ever fall into a lower-quality threshold, we will use 150 bp as our other truncating length. What *denoiseing* does is dereplicate our sequences to reduce repetition and file size/memory requirements in downstream steps.  
 ```  
-qiime dada2 denoise-paired --verbose --i-demultiplexed-seqs sequences.qza \
+qiime dada2 denoise-paired --verbose \  
+  --i-demultiplexed-seqs qimme2/sequences.qza \
   --p-trunc-len-r 150 --p-trunc-len-f 150 \
   --p-trim-left-r 54 --p-trim-left-f 52 \
-  --o-table table.qza \
-  --o-representative-sequences rep-seqs.qza \
-  --o-denoising-stats denoising-stats.qza \
+  --o-table  qimme2/table.qza \
+  --o-representative-sequences qimme2/rep-seqs.qza \
+  --o-denoising-stats qimme2/denoising-stats.qza \
   --p-n-threads 20
 ```
 
