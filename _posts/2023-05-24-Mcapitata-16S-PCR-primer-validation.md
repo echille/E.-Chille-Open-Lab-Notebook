@@ -7,7 +7,7 @@ tags: Bhattacharya Lab, PCR, microbiome
 projects: Bhattacharya Lab, HI22 Mcap Microbiome Biogeography  
 ---  
 
-The workflow below provides step-by-step instructions for how the Bhattacharya Lab validated the 515F and 8069 (targeted the V4 region of 16S rDNA in bacteria) for microbiome analyses in *Montipora capitata*. These primers, while working for most other taxa, have proven troublesome in *M. capitata*, amplifying what seems to mostly be coral DNA. For the below samples, we performed a DNA extraction protocol that enriches for bacterial DNA, in hopes that this would alleviate the issues observed previously. For the validation, 3 *Montipora capitata* samples, 2 sediment samples, and 2 *Galaxea fascicularis* samples were tested. We find that while the primers do amplify the mitochondrial genome in *M. capitata*, enough 16S DNA was sequenced to perform the QIIME2 workflow for microbiome analysis.
+The workflow below provides step-by-step instructions for how the Bhattacharya Lab validated the 515F and 8069 (targeted the V4 region of 16S rDNA in bacteria) for microbiome analyses in *Montipora capitata*. These primers, while working for most other taxa, have proven troublesome in *M. capitata*, amplifying what seems to mostly be coral DNA. For the below samples, we performed a DNA extraction protocol that enriches for bacterial DNA, in hopes that this would alleviate the issues observed previously. For the validation, 3 *Montipora capitata* samples, 2 sediment samples, and 2 *Galaxea fascicularis* samples were tested. We find that while the primers do amplify the mitochondrial genome in *M. capitata*, enough 16S DNA was sequenced to perform the QIIME2 workflow for microbiome analysis. Qimme2 workflow was adapted from Dr. Emma Strand's Open Lab Notebook Post, ["Holobiont Integration 16S V4 QIIME2 Analysis Pipeline"](https://emmastrand.github.io/EmmaStrand_Notebook/16s-Analysis-Pipeline/).
 
 ## Sample information
 
@@ -101,7 +101,7 @@ qiime cutadapt trim-paired --verbose \
 Next, we will denoise our data. In this part, we will trim off our primers. Our primers are 52 and 54 bp long, so we will truncate that part of the sequence. Because our sequences are 150 bp long and they don't ever fall into a lower-quality threshold, we will use 150 bp as our other truncating length. What *denoiseing* does is dereplicate our sequences to reduce repetition and file size/memory requirements in downstream steps.  
 ```  
 qiime dada2 denoise-paired --verbose \  
-  --i-demultiplexed-seqs qimme2/sequences.qza \
+  --i-demultiplexed-seqs qimme2/trimmed_sequences.qza \
   --p-trunc-len-r 150 --p-trunc-len-f 150 \
   --p-trim-left-r 54 --p-trim-left-f 52 \
   --o-table  qimme2/table.qza \
@@ -112,8 +112,24 @@ qiime dada2 denoise-paired --verbose \
 
 The last step of decluttering our data is clustering our sequences into ASVs, or a single representative sequence for sequences with 97% similarity to each other. These ASVs will be stored as a *FeatureTable* along with the total count of their abundances in each sample.  
 ```
+qiime metadata tabulate \
+  --m-input-file qimme2/denoising-stats.qza \
+  --o-visualization qimme2/denoising-stats.qzv
+qiime feature-table summarize \
+  --i-table qimme2/table.qza \
+  --o-visualization qimme2/table.qzv \
+  --m-sample-metadata-file $METADATA
+qiime feature-table tabulate-seqs \
+  --i-data qimme2/rep-seqs.qza \
+  --o-visualization qimme2/rep-seqs.qzv
+```
+Output files denoising-stats.qzv and table.qzv can be viewed in [QIIME2 view](https://view.qiime2.org/).
+
+### Taxonomy classification based on Silva 515F-806R 16S database.
+
+```
 wget https://data.qiime2.org/2023.5/common/silva-138-99-515-806-nb-classifier.qza #added to the qimme2 sub-directory
-METADATA="metadata/sample_metadata.txt"
+
 qiime feature-classifier classify-sklearn \
   --i-classifier qimme2/silva-138-99-515-806-nb-classifier.qza \
   --i-reads qimme2/rep-seqs.qza \
