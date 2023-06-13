@@ -27,7 +27,7 @@ The workflow below provides step-by-step instructions for how the Bhattacharya L
 4. Taxonomic classification  
 5. Alpha and beta diversity analyses
 
-### 1. Installation of QIIME2  
+### 1. Installation of QIIME2 and Silva database   
 
 We will install QIIME2 through Miniconda, [as recommended](https://docs.qiime2.org/2023.2/install/). To do so, we must download the YAML file containing the list of conda libraries associated with QIIME2. In order to install QIIME2, you must have Miniconda or Anaconda installed first. For more information on conda, see [https://docs.conda.io/](https://docs.conda.io/).  
 ```  
@@ -35,11 +35,16 @@ wget https://data.qiime2.org/distro/core/qiime2-2023.2-py38-osx-conda.yml #downl
 conda env create -n qiime2-2023.2 --file qiime2-2023.2-py38-osx-conda.yml #Install the libraries as a conda environment called "qiime2-2023.2"  
 rm qiime2-2023.2-py38-osx-conda.yml #delete the YAML file  
 ```  
-Now, anytime we want to use QIIME2, we have to first activate the QIIME2 conda environment. This only has to be done anytime you start a new session in terminal. Before you close the session, deactivate the conda environement  
+Now, anytime we want to use QIIME2, we have to first activate the QIIME2 conda environment. This only has to be done anytime you start a new session in terminal. Before you close the session, deactivate the conda environment  
 ```  
 conda activate qiime2-2023.2  #to activate
 conda deactivate #to deactivate  
-```  
+``` 
+
+Download Silva database (taxonomy identification trainer.  
+```
+wget https://data.qiime2.org/2023.5/common/silva-138-99-515-806-nb-classifier.qza #added to the qimme2 sub-directory  
+```
 
 ### 2. Import data as a QIIME2 artifact  
 
@@ -110,6 +115,8 @@ qiime dada2 denoise-paired --verbose \
   --p-n-threads 20
 ```
 
+*Left off on the denoiseing step (code above). Last I checked 2AM 6/13/2023, it was still running on screen "qiime2".*
+
 The last step of decluttering our data is clustering our sequences into ASVs, or a single representative sequence for sequences with 97% similarity to each other. These ASVs will be stored as a *FeatureTable* along with the total count of their abundances in each sample.  
 ```
 qiime metadata tabulate \
@@ -128,8 +135,6 @@ Output files denoising-stats.qzv and table.qzv can be viewed in [QIIME2 view](ht
 ### Taxonomy classification based on Silva 515F-806R 16S database.
 
 ```
-wget https://data.qiime2.org/2023.5/common/silva-138-99-515-806-nb-classifier.qza #added to the qimme2 sub-directory
-
 qiime feature-classifier classify-sklearn \
   --i-classifier qimme2/silva-138-99-515-806-nb-classifier.qza \
   --i-reads qimme2/rep-seqs.qza \
