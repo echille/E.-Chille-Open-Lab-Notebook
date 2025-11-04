@@ -1,5 +1,3 @@
-# Ulithi23 PopGen and Symbiont Composition Analysis
-
 ## Population genomic analysis
 #### November 4, 2025
 Today, I started using pyani-plus to determine which reference genome – the more complete KBHIv3 genome (97% completeness) or the ULFMv1 genome (85% completeness). Pyani will give us metrics of how closely related the two genomes are by nucleotide similarity. I am currently running a “simplified workflow” with just those two genomes (`screen -r pyani-simple`) and a more complex experimental design (`screen -r pyani`) that includes *Acropora millepora* (JSIDv2.1) as an outgroup, congeners *M. efflorescens* (SLJPv2) and *M. cactus* (SLJPv2), and conspecific from the Big Island, *M. capitata* WTHIv1.1. The simplified workflow is using the ANI algorithm that is considered the “gold standard” ANIb, which uses BLAST+. The complex design uses fastANI, which is faster and perhaps less accurate.
