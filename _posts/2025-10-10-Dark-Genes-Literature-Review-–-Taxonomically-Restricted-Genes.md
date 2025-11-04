@@ -1,4 +1,3 @@
-# Dark Genes Literature Review – Taxonomically Restricted Genes
 **Traits of new, lineage-specific genes:**
 * Have higher tissue-specific expression in Green tea cultivar (Zhao & Ma 2021).
 * In mangrove plants, new genes had lower overall expression and higher tissue-specific expression (Ma et al. 2021).
