@@ -26,7 +26,10 @@ All this means that I'll have to use the Ulithi *Montipora* as my reference geno
 **Next steps:** Because the original SNP calling was done using the KBHIv3 genome, I'll have to redo the individual SNP calling using the ULFM genome before generating the AllSites VCF.
 
 ![sourmash results](https://github.com/echille/E.-Chille-Open-Lab-Notebook/blob/master/images/sourmash_compare.results.matrix.png?raw=true)
+*Sourmash results. Ulithi Montipora called ULFMv1*
+
 ![ITS results](https://github.com/echille/E.-Chille-Open-Lab-Notebook/blob/master/images/coral_marker_region.combined.fasta.mafft.aln.iqtree.contree.png?raw=true)
+*ITS results. Ulithi Montipora marked with magenta star. Hawaii Montipora marked with blue bracket.*
 
 ## Symbiont composition analysis
 #### November 4, 2025
