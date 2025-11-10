@@ -10,6 +10,24 @@ The command I used for the simple analysis is: `pyani-plus anib ./ --database Mc
 
 **Next steps:** Once we get some idea about the relatedness of these genomes, we can get a better idea of which would be the best to use for the AllSites VCF formation. I will ask Anthony Geneva for advice next Wednesday.
 
+#### November 10, 2025
+Last week I was trying to determine which *Montipora* reference genome I should use for one of my analyses. One of the Oahu Montipora genomes we have is 97% complete (as opposed to the 85% complete Ulithi one), so I wanted to see if they were closely related enough that I could get away with using the more complete genome.
+
+What is really cool is that we now have two full genomes from Kanoehe Bay in Hawaii, and one of the genomes that is the same species, but from Waiopae Tide Pools on the Big Island. I figured, if the outbreak Montipora were introduced from Hawaii during WWII, the distance should be about the same (or smaller) as the distance between the Big Island genome and the Oahu genome.
+
+I used a "quick-and-dirty" approach to compare the whole genomes that we have, called sourmash. The sourmash approach takes breaks the genomes up into lots of small fragments, converts those into a numeric representation, keeps just the bits that differ between the genomes, and then summarizes the overlap between the genomes using a metric called a Jaccard Index, where 1 is identical and 0 is zero overlap. 
+
+As you can see below, the Ulithi genome is not within that cluster of *Montipora* genomes from Hawaii. Also, the Hawaii *Montipora*, likely due to their isolation from other reefs, are very distantly related to the other *Montipora*. That doesn't necessarily mean that the outbreak *Montipora* wasn't introduced from elsewhere, but it doesn't seem like it was introduced from Hawaii.
+
+These results agree with a previous analysis ran by Tim, where he used the available *Montipora* and *Acropora* 18S, ITS1, 5.8S, ITS2, and 28S voucher sequences from NCBI to build a tree.
+
+All this means that I'll have to use the Ulithi *Montipora* as my reference genome, even though it is less complete, it is the closest match we've got.
+
+**Next steps:** Because the original SNP calling was done using the KBHIv3 genome, I'll have to redo the individual SNP calling using the ULFM genome before generating the AllSites VCF.
+
+![sourmash results](https://github.com/echille/E.-Chille-Open-Lab-Notebook/blob/master/images/sourmash_compare.results.matrix.png?raw=true)
+![ITS results](https://github.com/echille/E.-Chille-Open-Lab-Notebook/blob/master/images/coral_marker_region.combined.fasta.mafft.aln.iqtree.contree.png?raw=true)
+
 ## Symbiont composition analysis
 #### November 4, 2025
 I started reviewing my proposed methodology from my dissertation proposal today and I plan to start this analysis soon. I can’t decide whether I should do the coral popgen analysis first or this. I probably can’t do both at the same time because of high server traffic.
