@@ -31,22 +31,3 @@ All this means that I'll have to use the Ulithi *Montipora* as my reference geno
 ![ITS results](https://github.com/echille/E.-Chille-Open-Lab-Notebook/blob/master/images/coral_marker_region.combined.fasta.mafft.aln.iqtree.contree.png?raw=true)
 *ITS results. Ulithi Montipora marked with magenta star. Hawaii Montipora marked with blue bracket.*
 
-## Symbiont composition analysis
-### November 4, 2025
-I started reviewing my proposed methodology from my dissertation proposal today and I plan to start this analysis soon. I can’t decide whether I should do the coral popgen analysis first or this. I probably can’t do both at the same time because of high server traffic.
-
-In my proposal, I wrote that I wanted to use the workflow outlined in [Contaminant or goldmine? In silico assessment of Symbiodiniaceae community using coral hologenomes](https://www.frontiersin.org/journals/protistology/articles/10.3389/frpro.2024.1376877/full), which extracts non-coral reads from bam files (tentatively here: `/storage/timothy/Storage/projects/0050_Ulithi_Trip_2023/03_Analysis/2023-07-17/02_Genotype_Samples/results/mapping_merged/Montipora_capitata_KBHIv3/`), utilizes k-mer counting and frequency computation to compute distances between samples. The scripts to run this analysis are available on GitHub [hisatakeishida/Symb-SHIN: Computational workflow to identify Symbiodiniaceae diversity by Scrapping Hologenome data with IN-sillico methods](https://github.com/hisatakeishida/Symb-SHIN). 
-
-![](https://private-user-images.githubusercontent.com/95674651/300316034-477de686-85c1-4411-81c8-6dc1a373f552.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjIzMDAzODYsIm5iZiI6MTc2MjMwMDA4NiwicGF0aCI6Ii85NTY3NDY1MS8zMDAzMTYwMzQtNDc3ZGU2ODYtODVjMS00NDExLTgxYzgtNmRjMWEzNzNmNTUyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTA0VDIzNDgwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThkZGMwNTg1MmEzOTllYTE2ZmJkMjM4MjcxMjRiYWJlODRkNmI3OTM5YmYyNWZjN2Q2ZjE3N2RmNzM2MWRjMDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.arrCapCCfYV9WktqKVYQAnR1K8VERiZOmEgajeKXoCQ)
-
-**Next steps:**  Confirm that the BAM files I found should contain symbiont reads, if not, figure out where the unmapped reads are stored or re-rerun that part of the analysis. Then, I can test if I can run this analysis at the same time or before running the PopGen analysis.
-
-### November 10, 2025
-
-Last week, I developed my plan for the analyzing the symbiont composition for the Ulithi *Montipora* samples. Essentially, my plan is to utilize the workflows set up in place by the Cooke lab which are extremely well documented [here](https://github.com/bakeronit/acropora_digitifera_wgs/blob/main/23.symbionts.md) from the paper by [Zhang et al. 2022](https://doi.org/10.1093/molbev/msac201). Their repository includes both a markdown file explanation of the workflow and well-organized scripts for running the analyses.
-
-First, I wanted to use Kraken to do a genus-level analysis of the data and this would be probably what would be published in the data paper - I'd use more recent/complete genomes than the ones they have listed there. Then, I wanted to do an ITS2 profile like the one they have described to get more fine detail about the symbiont identities. Lastly, I would do the jellyfish and D2S statistics to get clusters to use as metadata for my drivers of proteome-wide variation analysis. It would also be cool to do the jellyfish and D2S statistics with the reads that map to the microbiome (combined reads from the bacteria, archaea, and fungal Ref Seq databases).
-
-Before, I was just going to do the jellyfish and D2S statistics, but I figured I should probably also do the other two analyses for due diligence and because reviewers are going to ask.
-
-Also, update with the .bam files that they probably only contain *Montipora* reads, but Tim could not give definitive confirmation. That's ok though because I think for most of this we can start from FASTQ files.
